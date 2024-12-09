@@ -1,0 +1,93 @@
+>#Master REMOVE list for Colossus Addon Mod
+>
+>#Colossus Addon Mod 1.0
+NetworkAddonMod_Traffic_Plugin_BetterPathfinding_CAM_PromoteBiking.dat
+NetworkAddonMod_Traffic_Plugin_BetterPathfinding_CAM_PromoteNothing.dat
+NetworkAddonMod_Traffic_Plugin_BetterPathfinding_CAM_PromoteWalking.dat
+CAM_5%_R$$_Working_in_CS$.dat
+CAM_5%_R$$_Working_in_ID.dat
+CAM_5%_R$$_Working_in_IR.dat
+ColossusAddonMod_1.0.dat
+>#Colossus Addon Mod 2.0
+CAM_2.1.0_PlayStyle_Rural.dat
+CAM_2.1.0_Rural_Farm_Demand_Override.dat
+CAM_2.1.0_PlayStyle_Midrise.dat
+CAM_2.1.0_PlayStyle_SkyScraper.dat
+CAM_2.1.0_PlayStyle_Standard.dat
+CAM_2.1.0_Main_Controller.dat
+CAM_2.1.0_PlayStyle_Extended.dat
+CAM_2.5.0_Extended_Simulator.dat
+CAM_2.1.0_Buildings.dat
+>#Colossus Addon Mod 2.5 RC
+z_CAM DLC Landmark Patch.dat
+z_CAM Landmark Patch.dat
+z_CAM Rewards Patch.dat
+z_CAM_Civ_Patch_2.dat
+>#Colossus Addon Mod 2.5+
+CAM_2.5.0_Advanced_Water_Allert.dat
+CAM_2.5.0_Extended_Essentials.dat
+CAM_2.5.0_Extended_Locale.dat
+CAM_2.5.0_LUA_Controller.dat
+CAM_2.5.0_Main_Controller.dat
+CAM_2.5.0_PlayStyle_Extended.dat
+CAM_2.5.0_Stand_Permanent.memo-exemplar-patch.dat
+CAM_2.5.0_Buildings.dat
+CAM_2.5.0_Maxis_Building_Extended.dat
+CAM_2.5.0_DLC_Landmark_Patch.dat
+CAM_2.5.0_Landmark_Patch.dat
+CAM_2.5.0_Rewards_Patch.dat
+>#Colossus Addon Mod - Remove Patch
+Plugin_Crimedoesntpay_modd.dat
+CityHall_fix.dat
+UpgradeableCityHalls.dat
+CityHall.dat
+CityHall_LText.dat
+ConstantsLUA.dat
+NewsItemsLUA.dat
+RewardLUA.dat
+UI.dat
+MZ City Hall Package (Beta v1.1).dat
+MZ Fluff News Remover (Beta v1.0).dat
+No City Hall Query Sound v1.0.dat
+ModPacc Zero - Opera House Fixes - Override Vanilla (Beta v1).dat
+ModPacc Zero - Opera House Fixes - Override Toroca's (Beta v1).dat
+MZ Crime and Police Station Fixes (Beta v1.3).dat
+Fixed Underfunded Notices (FUN) - Urgent Priority - by CoriBoom v1.0.dat
+Fixed Underfunded Notices (FUN) - Med-High Priority - by CoriBoom v1.0.dat
+OperaHouse.dat
+>#Colossus Addon Mod - Incompatible Mods
+officestagecaps.dat
+residentialstagecaps.dat
+industry-quadrupler-2.dat
+Farming Jobs Doubler.dat
+Farming Jobs x5.dat
+Farming Jobs x10.dat
+Farming Jobs x50.dat
+EvenStageFarms.dat
+NoPedrianaFarms.dat
+LessCO$$$Abandonment.dat
+LessCO$$Abandonment.dat
+LessCS$$$Abandonment.dat
+LessCS$$Abandonment.dat
+LessR$$$Abandonment.dat
+LessR$$Abandonment.dat
+LessHighTechAbandonment.dat
+TSB_BlockAll_R$.dat
+TSB_BlockAll_R$$.dat
+TSB_BlockAll_R$$$.dat
+TSB_BlockAll_CS$.dat
+TSB_BlockAll_CS$$.dat
+TSB_BlockAll_CS$$$.dat
+TSB_BlockAll_CO$$.dat
+TSB_BlockAll_CO$$$.dat
+TSB_BlockAll_IM.dat
+TSB_BlockAll_IHT.dat
+TSB_BlockAll_ID.dat
+TSB_BlockAll_IR.dat
+Plugin_No_Dilapidation.dat
+PEG-MTP_CS$_REVISED_b101.dat
+PEG-MTP_CS$$_REVISED_b101.dat
+PEG-MTP_CS$$$_REVISED_b101.dat
+PEG-MTP_R$$$_RES-MOD.dat
+PEG-MTP_R$$_RES-MOD_205.dat
+PEG-MTP_R$_RES-MOD_205.dat
