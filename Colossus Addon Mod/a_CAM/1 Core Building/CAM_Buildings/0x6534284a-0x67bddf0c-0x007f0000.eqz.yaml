@@ -1,0 +1,49 @@
+parent: [ 0x5342861, 0x67bddf0c, 0x20000033 ]
+properties:
+  - id: 0x20
+    name: ExemplarName
+    type: String
+    value: R$$$60x28_8HouHiriseLuxCondos11_007F
+  - id: 0x99afacd
+    name: BulldozeCost
+    type: Sint64
+    value: 1840
+  - id: 0x27812810
+    name: OccupantSize
+    type: Float32
+    value: [ 52.5, 156, 55 ]
+  - id: 0x27812821
+    name: ResourceKeyType1
+    type: Uint32
+    value: [ 0x5ad0e817, 0xbadb57f1, 0x7f0000 ]
+  - id: 0x27812834
+    name: CapacitySatisfied
+    type: Uint32
+    value:
+      - 0x1010
+      - 0x29e8
+      - 0x1020
+      - 0x1873
+      - 0x1030
+      - 0x1143
+  - id: 0x499afa38
+    name: ConstructionTime
+    type: Uint8
+    value: 0xb8
+  - id: 0x8a1c3e72
+    name: Worth
+    type: Sint64
+    value: 1840
+  - id: 0x8a416a99
+    name: UserVisibleNameKey
+    type: Uint32
+    value: [ 0x2026960b, 0xa554ae0, 0xa5ea6b2 ]
+  - id: 0xaa1dd396
+    name: OccupantGroups
+    type: Uint32
+    value:
+      - 0x1000
+      - 0x11030
+      - 0x2002
+      - 0xb5c00bb8
+      - 0xb5c00bba

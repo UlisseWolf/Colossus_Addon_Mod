@@ -1,0 +1,381 @@
+parent: [ 0x0, 0x0, 0x0 ]
+properties:
+  - id: 0x10
+    name: ExemplarType
+    type: Uint32
+    value: 0x5
+  - id: 0x20
+    name: ExemplarName
+    type: String
+    value: Residential simulator
+  - id: 0x929c439
+    name: HQDecay
+    type: Float32
+    value: 0.20000000298023224
+  - id: 0x929cc30
+    name: MediumWealthAverageAge
+    type: Uint8
+    value: 0x1e
+  - id: 0x929cc36
+    name: HighWealthAverageAge
+    type: Uint8
+    value: 0x23
+  - id: 0x929cc65
+    name: MediumWealthEQ
+    type: Uint8
+    value: 0xf
+  - id: 0xa53b2f9
+    name: HealthFundingToCoverageCurve
+    type: Float32
+    value:
+      - 0
+      - 50
+      - 100
+      - 100
+  - id: 0x2918949e
+    name: HealthFundingToEfficiencyCurve
+    type: Float32
+    value:
+      - 0
+      - 0
+      - 100
+      - 100
+      - 120
+      - 110
+  - id: 0x2929cc6b
+    name: HighWealthEQ
+    type: Uint8
+    value: 0x14
+  - id: 0x2aa84164
+    name: MaximumHQBoost
+    type: Float32
+    value: 1.100000023841858
+  - id: 0x4929cc97
+    name: HighWealthHQ
+    type: Uint8
+    value: 0x3c
+  - id: 0x4941a92b
+    name: LifeExpectancyToWorkforceCurve
+    type: Float32
+    value:
+      - 50
+      - 50
+      - 100
+      - 75
+  - id: 0x4aa84161
+    name: MaximumEQBoost
+    type: Float32
+    value: 1.2999999523162842
+  - id: 0x4ab70dac
+    name: DeathsDoorEffectChance
+    type: Float32
+    value: 1.5
+  - id: 0x4ab71659
+    name: DeathsDoorEffectHeightDelta
+    type: Float32
+    value: 10
+  - id: 0x691894a4
+    name: HealthStrikeResponseCurve
+    type: Float32
+    value:
+      - 0
+      - 100
+      - 80
+      - 0
+  - id: 0x691894c0
+    name: SchoolMinGradeToEndStrike
+    type: Float32
+    value: 90
+  - id: 0x691894c6
+    name: SchoolFundingToEfficiencyCurve
+    type: Float32
+    value:
+      - 0
+      - 0
+      - 100
+      - 100
+      - 120
+      - 110
+  - id: 0x6929cc92
+    name: MediumWealthHQ
+    type: Uint8
+    value: 0x28
+  - id: 0x6941a67f
+    name: HealthQuotientToLifeExpectancyCurve
+    type: Float32
+    value:
+      - 0
+      - 50
+      - 20
+      - 55
+      - 40
+      - 60
+      - 60
+      - 65
+      - 200
+      - 100
+  - id: 0x6941b022
+    name: AirPollutionToHQDecayCurve
+    type: Float32
+    value:
+      - 0
+      - 0
+      - 512
+      - 0.10000000149011612
+      - 1024
+      - 50
+  - id: 0x6a9f6edd
+    name: CoverageRadiusSlopMultiplier
+    type: Float32
+    value: 1.100000023841858
+  - id: 0x6ab70da7
+    name: DeathsDoorHQ
+    type: Float32
+    value: 2
+  - id: 0x6ab71654
+    name: DeathsDoorEffectHeight
+    type: Float32
+    value: 50
+  - id: 0x89189482
+    name: HealthStrikeEfficiency
+    type: Float32
+    value: 20
+  - id: 0x8918948b
+    name: HealthStrikeDuration
+    type: Uint32
+    value: 0x1f4
+  - id: 0x89189495
+    name: HealthMinGradeToEndStrike
+    type: Float32
+    value: 90
+  - id: 0x891894ad
+    name: SchoolInitMaxAllowedFunding
+    type: Float32
+    value: [ 25, 120 ]
+  - id: 0x8a891421
+    name: SchoolCapacityToStaffDivisor
+    type: Uint32
+    value: 0x1e
+  - id: 0x8a89142a
+    name: HospitalCapacityToStaffDivisor
+    type: Uint32
+    value: 0x1e
+  - id: 0xa9189479
+    name: HealthInitMaxAllowedFunding
+    type: Float32
+    value: [ 25, 120 ]
+  - id: 0xa91894bc
+    name: SchoolStrikeDuration
+    type: Uint32
+    value: 0x1f4
+  - id: 0xa941b028
+    name: WaterPollutionToHQDecayCurve
+    type: Float32
+    value:
+      - 0
+      - 0
+      - 512
+      - 0.10000000149011612
+      - 1024
+      - 50
+  - id: 0xac43826d
+    name: HospitalCapacityChunkSize
+    type: Uint32
+    value: [ 0x1f4, 0x1f4, 0x7d0 ]
+  - id: 0xc91894cb
+    name: SchoolStrikeResponseCurve
+    type: Float32
+    value:
+      - 0
+      - 100
+      - 80
+      - 0
+  - id: 0xc929c433
+    name: EQDecay
+    type: Float32
+    value: 0.20000000298023224
+  - id: 0xc929c652
+    name: LowWealthAverageAge
+    type: Uint8
+    value: 0x19
+  - id: 0xc929cc58
+    name: LowWealthEQ
+    type: Uint8
+    value: 0xa
+  - id: 0xc929cc8d
+    name: LowWealthHQ
+    type: Uint8
+    value: 0x14
+  - id: 0xc941b02e
+    name: GarbagePollutionToHQDecayCurve
+    type: Float32
+    value:
+      - 0
+      - 0
+      - 512
+      - 0.20000000298023224
+      - 1024
+      - 20
+  - id: 0xca027307
+    name: AverageAgeResetValue
+    type: Uint8
+    value: 0x28
+  - id: 0xca027325
+    name: EQResetPercent
+    type: Float32
+    value: 80
+  - id: 0xca027328
+    name: HQResetPercent
+    type: Float32
+    value: 80
+  - id: 0xe91894b3
+    name: SchoolStrikeEfficiency
+    type: Float32
+    value: 20
+  - id: 0xea53b30f
+    name: SchoolFundingToCoverageCurve
+    type: Float32
+    value:
+      - 0
+      - 50
+      - 100
+      - 100
+      - 120
+      - 110
+  - id: 0xea540621
+    name: AvgAgeTo1_10AgeGroup
+    type: Float32
+    value:
+      - 20
+      - 24
+      - 30
+      - 6
+      - 40
+      - 9
+      - 50
+      - 4
+      - 60
+      - 0
+  - id: 0xea540622
+    name: AvgAgeTo11_20AgeGroup
+    type: Float32
+    value:
+      - 20
+      - 28
+      - 30
+      - 24
+      - 40
+      - 12
+      - 50
+      - 6
+      - 60
+      - 0
+  - id: 0xea540623
+    name: AvgAgeTo21_30AgeGroup
+    type: Float32
+    value:
+      - 20
+      - 31
+      - 30
+      - 27
+      - 40
+      - 12
+      - 50
+      - 6
+      - 60
+      - 0
+  - id: 0xea540624
+    name: AvgAgeTo31_40AgeGroup
+    type: Float32
+    value:
+      - 20
+      - 12
+      - 30
+      - 20
+      - 40
+      - 13
+      - 50
+      - 8
+      - 60
+      - 3
+  - id: 0xea540625
+    name: AvgAgeTo41_50AgeGroup
+    type: Float32
+    value:
+      - 20
+      - 5
+      - 30
+      - 12
+      - 40
+      - 23
+      - 50
+      - 19
+      - 60
+      - 13
+  - id: 0xea540626
+    name: AvgAgeTo51_60AgeGroup
+    type: Float32
+    value:
+      - 20
+      - 0
+      - 30
+      - 7
+      - 40
+      - 14
+      - 50
+      - 27
+      - 60
+      - 39
+  - id: 0xea540627
+    name: AvgAgeTo61_70AgeGroup
+    type: Float32
+    value:
+      - 20
+      - 0
+      - 30
+      - 4
+      - 40
+      - 11
+      - 50
+      - 20
+      - 60
+      - 31
+  - id: 0xea540628
+    name: AvgAgeTo71_80AgeGroup
+    type: Float32
+    value:
+      - 20
+      - 0
+      - 30
+      - 0
+      - 40
+      - 5
+      - 50
+      - 8
+      - 60
+      - 11
+  - id: 0xea540629
+    name: AvgAgeTo81_90AgeGroup
+    type: Float32
+    value:
+      - 20
+      - 0
+      - 30
+      - 0
+      - 40
+      - 1
+      - 50
+      - 2
+      - 60
+      - 3
+  - id: 0xec43826b
+    name: SchoolCapacityChunkSize
+    type: Uint32
+    value:
+      - 0x1f4
+      - 0x2ee
+      - 0x3e8
+      - 0x3e8
+      - 0x2710
+      - 0x12c
+      - 0x4b0

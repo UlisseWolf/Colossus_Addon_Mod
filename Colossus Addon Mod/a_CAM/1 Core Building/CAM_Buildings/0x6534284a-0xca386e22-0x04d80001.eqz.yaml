@@ -1,0 +1,124 @@
+parent: [ 0x0, 0x0, 0x0 ]
+properties:
+  - id: 0x10
+    name: ExemplarType
+    type: Uint32
+    value: 0x2
+  - id: 0x20
+    name: ExemplarName
+    type: String
+    value: CS$$$_SmithTower_04D8
+  - id: 0x99afacd
+    name: BulldozeCost
+    type: Sint64
+    value: 1390
+  - id: 0x27812810
+    name: OccupantSize
+    type: Float32
+    value: [ 44.15520095825195, 127.58699798583984, 34.01250076293945 ]
+  - id: 0x27812811
+    name: FillingDegree
+    type: Float32
+    value: [ 0.6000000238418579 ]
+  - id: 0x27812821
+    name: ResourceKeyType1
+    type: Uint32
+    value: [ 0x5ad0e817, 0xbadb57f1, 0x4d80000 ]
+  - id: 0x27812832
+    name: Wealth
+    type: Uint8
+    value: 0x3
+  - id: 0x27812833
+    name: Purpose
+    type: Uint8
+    value: 0x2
+  - id: 0x27812834
+    name: CapacitySatisfied
+    type: Uint32
+    value:
+      - 0x3110
+      - 0xefb
+      - 0x3120
+      - 0x3c1
+      - 0x3130
+      - 0x182
+  - id: 0x27812851
+    name: PollutionAtCenter
+    type: Sint32
+    value:
+      - 34
+      - 17
+      - 34
+      - 0
+  - id: 0x27812854
+    name: PowerConsumed
+    type: Uint32
+    value: 0x6c
+  - id: 0x29244db5
+    name: Flammability
+    type: Uint8
+    value: 0x23
+  - id: 0x2a499f85
+    name: QueryExemplarGUID
+    type: Uint32
+    value: 0xca56783a
+  - id: 0x2c8f8746
+    name: ExemplarCategory
+    type: Uint32
+    value: 0xac8fbbeb
+  - id: 0x499afa38
+    name: ConstructionTime
+    type: Uint8
+    value: 0x8b
+  - id: 0x49beda31
+    name: MaxFireStage
+    type: Uint8
+    value: 0x4
+  - id: 0x68ee9764
+    name: PollutionRadii
+    type: Float32
+    value:
+      - 6
+      - 7
+      - 0
+      - 0
+  - id: 0x8a1c3e72
+    name: Worth
+    type: Sint64
+    value: 1390
+  - id: 0x8a416a99
+    name: UserVisibleNameKey
+    type: Uint32
+    value: [ 0x2026960b, 0xa554ae0, 0xea5ea6cc ]
+  - id: 0x8cb3511f
+    name: OccupantTypes
+    type: Uint32
+    value: [ 0x3110, 0x3120, 0x3130 ]
+  - id: 0xaa1dd396
+    name: OccupantGroups
+    type: Uint32
+    value:
+      - 0x1001
+      - 0x13130
+      - 0x2000
+      - 0x2001
+      - 0x2002
+      - 0x2003
+      - 0xb5c00ab8
+      - 0xb5c00aba
+  - id: 0xaa1dd397
+    name: SFXQuerySound
+    type: Uint32
+    value: 0x2a8916ab
+  - id: 0xaa83558f
+    name: CraneHints
+    type: Uint8
+    value: 0x3
+  - id: 0xc8ed2d84
+    name: WaterConsumed
+    type: Uint32
+    value: 0x8fe
+  - id: 0xe91a0b5f
+    name: BuildingValue
+    type: Sint64
+    value: 37276

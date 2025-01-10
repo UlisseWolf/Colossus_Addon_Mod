@@ -1,0 +1,27 @@
+parent: [ 0x0, 0x0, 0x0 ]
+properties:
+  - id: 0x10
+    name: ExemplarType
+    type: Uint32
+    value: 0x4
+  - id: 0x20
+    name: ExemplarName
+    type: String
+    value: Parks Manager
+  - id: 0x4a6676ad
+    name: ZooEscapeChanceCurve
+    type: Float32
+    value:
+      - 0
+      - 40
+      - 25
+      - 10
+      - 100
+      - 1
+  - id: 0xca480830
+    name: EfficiencyDistressThreshold
+    type: Float32
+    value: 25
+  - id: 0xca480831
+    type: Sint64
+    value: 0

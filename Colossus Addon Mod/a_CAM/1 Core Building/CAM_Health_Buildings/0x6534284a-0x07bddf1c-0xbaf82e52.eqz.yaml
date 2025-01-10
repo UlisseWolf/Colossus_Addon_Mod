@@ -1,0 +1,196 @@
+parent: [ 0x0, 0x0, 0x0 ]
+properties:
+  - id: 0x10
+    name: ExemplarType
+    type: Uint32
+    value: 0x2
+  - id: 0x20
+    name: ExemplarName
+    type: String
+    value: CV44x44_LargeMedicalCenter_PIMxD
+  - id: 0x91b42a2
+    name: HospitalCoverageRadius
+    type: Float32
+    value: 1336
+  - id: 0x99afacd
+    name: BulldozeCost
+    type: Sint64
+    value: 140
+  - id: 0x27812810
+    name: OccupantSize
+    type: Float32
+    value: [ 47.900001525878906, 43.84000015258789, 47.900001525878906 ]
+  - id: 0x27812811
+    name: FillingDegree
+    type: Float32
+    value: [ 0.5 ]
+  - id: 0x27812821
+    name: ResourceKeyType1
+    type: Uint32
+    value: [ 0x5ad0e817, 0xbadb57f1, 0x3130000 ]
+  - id: 0x27812832
+    name: Wealth
+    type: Uint8
+    value: 0x2
+  - id: 0x27812841
+    name: DemandCreated
+    type: Uint32
+    value:
+      - 0x2010
+      - 0x24
+      - 0x2020
+      - 0x60
+      - 0x2030
+      - 0x1f
+      - 0x1810
+      - 0x24
+      - 0x1820
+      - 0x60
+      - 0x1830
+      - 0x1f
+  - id: 0x27812851
+    name: PollutionAtCenter
+    type: Sint32
+    value:
+      - 4
+      - 2
+      - 2
+      - 0
+  - id: 0x27812854
+    name: PowerConsumed
+    type: Uint32
+    value: 0x8
+  - id: 0x2921a9cc
+    name: HospitalPopulationVsDistance
+    type: Float32
+    value:
+      - 0
+      - 100
+      - 100
+      - 100
+  - id: 0x29244db5
+    name: Flammability
+    type: Uint8
+    value: 0x24
+  - id: 0x2a499f85
+    name: QueryExemplarGUID
+    type: Uint32
+    value: 0xaa554aea
+  - id: 0x49beda31
+    name: MaxFireStage
+    type: Uint8
+    value: 0x4
+  - id: 0x49cac341
+    name: PlopCost
+    type: Sint64
+    value: 2850
+  - id: 0x4a4c132e
+    name: SFXActivateSound
+    type: Uint32
+    value: 0x8a8b7dd1
+  - id: 0x4aa60ebc
+    name: CatalogCapacity
+    type: Uint32
+    value: 0x125c
+  - id: 0x68ee9764
+    name: PollutionRadii
+    type: Float32
+    value:
+      - 3
+      - 4
+      - 0
+      - 0
+  - id: 0x69220415
+    name: HospitalPatientCapacity
+    type: Uint32
+    value: 0x125c
+  - id: 0x6a871b82
+    name: PluginPackID
+    type: Uint32
+    value: 0xbaf82e52
+  - id: 0x6ad54804
+    name: CatalogMonthlyCost
+    type: Sint32
+    value: [ 1900 ]
+  - id: 0x8a2602b8
+    name: ItemIcon
+    type: Uint32
+    value: 0x6a35b751
+  - id: 0x8a2602b9
+    name: ItemOrder
+    type: Uint32
+    value: 0x2
+  - id: 0x8a416a99
+    name: UserVisibleNameKey
+    type: Uint32
+    value: [ 0x2026960b, 0xa554ae0, 0xea5ea6f5 ]
+  - id: 0xa92ae3bd
+    name: HospitalEffectivenessVsAverageAge
+    type: Float32
+    value:
+      - 0
+      - 8
+      - 100
+      - 8
+  - id: 0xaa1dd396
+    name: OccupantGroups
+    type: Uint32
+    value:
+      - 0x1005
+      - 0x1507
+      - 0x1513
+      - 0x151a
+      - 0x1a02
+      - 0x1904
+  - id: 0xaa1dd397
+    name: SFXQuerySound
+    type: Uint32
+    value: 0xaa55ba71
+  - id: 0xaa1dd399
+    name: BuildingSubmenus
+    type: Uint32
+    value: [ 0xb7b594d6 ]
+  - id: 0xaa83558f
+    name: CraneHints
+    type: Uint8
+    value: 0x3
+  - id: 0xc8ed2d84
+    name: WaterConsumed
+    type: Uint32
+    value: 0x1d
+  - id: 0xc9299659
+    name: HospitalHQBoost
+    type: Float32
+    value: 11.520000457763672
+  - id: 0xc9b93a56
+    name: SFXDefaultPlopSound
+    type: Uint32
+    value: 0x6a5ec589
+  - id: 0xca416ab5
+    name: ItemDescriptionKey
+    type: Uint32
+    value: [ 0x2026960b, 0xa554ae0, 0xca5ea6f5 ]
+  - id: 0xca9b4ca8
+    name: UnusedMedicalProperty
+    type: Uint32
+    value: 0x1
+  - id: 0xea260589
+    name: LotResourceKey
+    type: Uint32
+    value: [ 0xea273867 ]
+  - id: 0xea54d283
+    name: BudgetItemDepartment
+    type: Uint32
+    value: [ 0x9188f42, 0xaa538cb3 ]
+  - id: 0xea54d284
+    name: BudgetItemLine
+    type: Uint32
+    value: [ 0x0, 0x1 ]
+  - id: 0xea54d285
+    name: BudgetItemPurpose
+    type: Uint32
+    value: [ 0xca565486, 0xea56549e ]
+  - id: 0xea54d286
+    name: BudgetItemCost
+    type: Sint64
+    value: [ 1600, 300 ]

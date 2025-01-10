@@ -1,0 +1,110 @@
+parent: [ 0x5342861, 0xa8fbd372, 0x4aa3fc12 ]
+properties:
+  - id: 0x10
+    name: ExemplarType
+    type: Uint32
+    value: 0x10
+  - id: 0x20
+    name: ExemplarName
+    type: String
+    value: I-ht6_1x2
+  - id: 0x27812837
+    name: GrowthStage
+    type: Uint8
+    value: 0x6
+  - id: 0x4a4a88f0
+    name: LotConfigRequiredRoads
+    type: Uint8
+    value: 0x8
+  - id: 0x88edc789
+    name: LotConfigPropertyVersion
+    type: Uint8
+    value: 0x2
+  - id: 0x88edc790
+    name: LotConfigPropertySize
+    type: Uint8
+    value: [ 0x1, 0x2 ]
+  - id: 0x88edc791
+    name: LotConfigPropertyFamily
+    type: Uint32
+    value: [ 0x70000041 ]
+  - id: 0x88edc793
+    name: LotConfigPropertyZoneTypes
+    type: Uint8
+    value: [ 0x9 ]
+  - id: 0x88edc795
+    name: LotConfigPropertyWealthTypes
+    type: Uint8
+    value: [ 0x3 ]
+  - id: 0x88edc796
+    name: LotConfigPropertyPurposeTypes
+    type: Uint8
+    value: [ 0x8 ]
+  - id: 0x88edc900
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x1
+      - 0x10
+      - 0x1
+      - 0x73daa
+      - 0x0
+      - 0x1e47f1
+      - 0x2bdaa
+      - 0x1cc7f1
+      - 0xbbdaa
+      - 0x1fc7f1
+      - 0x0
+      - 0xaa853415
+      - 0x1d430000
+  - id: 0x88edc901
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x0
+      - 0x0
+      - 0x2
+      - 0x81de5
+      - 0x0
+      - 0xe4897
+      - 0x11de5
+      - 0x4897
+      - 0xf1de5
+      - 0x1c4898
+      - 0x0
+      - 0xca2d0062
+      - 0x70000041
+  - id: 0x88edc902
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x2
+      - 0x0
+      - 0x0
+      - 0x82cd8
+      - 0x0
+      - 0x8a470
+      - 0x2cd8
+      - 0xa470
+      - 0x102cd8
+      - 0x10a470
+      - 0x0
+      - 0x8aa35cba
+      - 0x258c2000
+  - id: 0x88edc903
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x2
+      - 0x0
+      - 0x0
+      - 0x7f10d
+      - 0x0
+      - 0x17d327
+      - 0xfffff10e
+      - 0xfd327
+      - 0xff10d
+      - 0x1fd327
+      - 0x0
+      - 0x6aa35cbb
+      - 0x258c2000

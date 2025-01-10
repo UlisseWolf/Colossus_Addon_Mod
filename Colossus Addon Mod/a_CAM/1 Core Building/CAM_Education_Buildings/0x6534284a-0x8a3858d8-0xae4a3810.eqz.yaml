@@ -1,0 +1,226 @@
+parent: [ 0x0, 0x0, 0x0 ]
+properties:
+  - id: 0x10
+    name: ExemplarType
+    type: Uint32
+    value: 0x2
+  - id: 0x20
+    name: ExemplarName
+    type: String
+    value: RW42x38_MajorArtMuseum_PIMxD
+  - id: 0x99afacd
+    name: BulldozeCost
+    type: Sint64
+    value: 2660
+  - id: 0x27812810
+    name: OccupantSize
+    type: Float32
+    value: [ 42.34560012817383, 32.270599365234375, 35.25870132446289 ]
+  - id: 0x27812811
+    name: FillingDegree
+    type: Float32
+    value: [ 0.625 ]
+  - id: 0x27812821
+    name: ResourceKeyType1
+    type: Uint32
+    value: [ 0x5ad0e817, 0xbadb57f1, 0x33c0000 ]
+  - id: 0x27812832
+    name: Wealth
+    type: Uint8
+    value: 0x2
+  - id: 0x27812840
+    name: DemandSatisfied
+    type: Uint32
+    value:
+      - 0x1820
+      - 0x1770
+      - 0x1830
+      - 0x1770
+  - id: 0x27812841
+    name: DemandCreated
+    type: Uint32
+    value:
+      - 0x2010
+      - 0x11
+      - 0x2020
+      - 0x40
+      - 0x2030
+      - 0x19
+      - 0x1810
+      - 0x11
+      - 0x1820
+      - 0x40
+      - 0x1830
+      - 0x19
+  - id: 0x2781284f
+    type: Sint32
+    value: [ 70, 26 ]
+  - id: 0x27812850
+    type: Sint32
+    value: [ 50, 22 ]
+  - id: 0x27812851
+    name: PollutionAtCenter
+    type: Sint32
+    value:
+      - 3
+      - 2
+      - 1
+      - 0
+  - id: 0x27812854
+    name: PowerConsumed
+    type: Uint32
+    value: 0x6
+  - id: 0x29244db5
+    name: Flammability
+    type: Uint8
+    value: 0x23
+  - id: 0x2a499f85
+    name: QueryExemplarGUID
+    type: Uint32
+    value: 0x6a555a84
+  - id: 0x49beda31
+    name: MaxFireStage
+    type: Uint8
+    value: 0x4
+  - id: 0x49cac341
+    name: PlopCost
+    type: Sint64
+    value: 3350
+  - id: 0x4a4c132e
+    name: SFXActivateSound
+    type: Uint32
+    value: 0x2a8b7db4
+  - id: 0x4aa60ebc
+    name: CatalogCapacity
+    type: Uint32
+    value: 0x64
+  - id: 0x68ee9764
+    name: PollutionRadii
+    type: Float32
+    value:
+      - 3
+      - 4
+      - 0
+      - 0
+  - id: 0x691b42b3
+    name: SchoolCoverageRadius
+    type: Float32
+    value: 6600
+  - id: 0x6a871b82
+    name: PluginPackID
+    type: Uint32
+    value: 0xae4a3810
+  - id: 0x8922041b
+    name: SchoolStudentCapacity
+    type: Uint32
+    value: 0x2904
+  - id: 0x8a2602b8
+    name: ItemIcon
+    type: Uint32
+    value: 0x4a35b495
+  - id: 0x8a2602b9
+    name: ItemOrder
+    type: Uint32
+    value: 0x6
+  - id: 0x8a416a99
+    name: UserVisibleNameKey
+    type: Uint32
+    value: [ 0x2026960b, 0xa554ae0, 0xca5ea69d ]
+  - id: 0xa92ae446
+    name: SchoolEQBoost
+    type: Float32
+    value: 1
+  - id: 0xaa1dd396
+    name: OccupantGroups
+    type: Uint32
+    value: [ 0x1506, 0x150b, 0x151b ]
+  - id: 0xaa1dd397
+    name: SFXQuerySound
+    type: Uint32
+    value: 0xea55bbe7
+  - id: 0xaa1dd399
+    name: BuildingSubmenus
+    type: Uint32
+    value: [ 0xaedd9faa ]
+  - id: 0xaa60e745
+    name: GoofyStatResponseCurve
+    type: Float32
+    value:
+      - -100
+      - 20
+      - 100
+      - 0
+  - id: 0xaa83558f
+    name: CraneHints
+    type: Uint8
+    value: 0x3
+  - id: 0xc8ed2d84
+    name: WaterConsumed
+    type: Uint32
+    value: 0x17
+  - id: 0xc9299662
+    name: SchoolEffectivenessVsAverageAge
+    type: Float32
+    value:
+      - 20
+      - 0
+      - 30
+      - 0.30000001192092896
+      - 40
+      - 0.30000001192092896
+      - 50
+      - 0.30000001192092896
+      - 60
+      - 0.75
+      - 70
+      - 1.5
+      - 80
+      - 3
+  - id: 0xc9b93a56
+    name: SFXDefaultPlopSound
+    type: Uint32
+    value: 0x6a5ec589
+  - id: 0xca416ab5
+    name: ItemDescriptionKey
+    type: Uint32
+    value: [ 0x2026960b, 0xa554ae0, 0xaa5ea69d ]
+  - id: 0xca5b9305
+    name: MayorRatingEffect
+    type: Sint32
+    value: [ 5, 440 ]
+  - id: 0xe921a936
+    name: SchoolPopulationVsDistance
+    type: Float32
+    value:
+      - 0
+      - 100
+      - 100
+      - 100
+  - id: 0xea260589
+    name: LotResourceKey
+    type: Uint32
+    value: [ 0x2a2868d5 ]
+  - id: 0xea2e078b
+    name: CityExclusionGroup
+    type: Uint32
+    value: [ 0xea9ae3a2 ]
+  - id: 0xea3209f8
+    name: ConditionalBuilding
+    type: Bool
+    value: true
+  - id: 0xea54d283
+    name: BudgetItemDepartment
+    type: Uint32
+    value: [ 0x9188f4c ]
+  - id: 0xea54d284
+    name: BudgetItemLine
+    type: Uint32
+    value: [ 0x0 ]
+  - id: 0xea54d285
+    name: BudgetItemPurpose
+    type: Uint32
+    value: [ 0xea5654b6 ]
+  - id: 0xea54d286
+    name: BudgetItemCost
+    type: Sint64
+    value: [ 3750 ]

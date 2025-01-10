@@ -1,0 +1,18 @@
+parent: [ 0x0, 0x0, 0x0 ]
+properties:
+  - id: 0x20
+    name: ExemplarName
+    type: String
+    value: "Patch: RCI Regional I Census"
+  - id: 0x62e78a
+    name: ExemplarPatchTargets
+    type: Uint32
+    value: [ 0xc7bb4816, 0x14001 ]
+  - id: 0x47bb3f50
+    name: Sums
+    type: Uint32
+    value:
+      - 0x14101
+      - 0x14201
+      - 0x14301
+      - 0x14401

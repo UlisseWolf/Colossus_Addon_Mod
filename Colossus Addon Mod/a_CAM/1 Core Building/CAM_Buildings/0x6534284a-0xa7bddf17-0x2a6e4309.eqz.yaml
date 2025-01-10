@@ -1,0 +1,74 @@
+parent: [ 0x0, 0x0, 0x0 ]
+properties:
+  - id: 0x10
+    name: ExemplarType
+    type: Uint32
+    value: 0x2
+  - id: 0x20
+    name: ExemplarName
+    type: String
+    value: FarmField2_2a6e4309
+  - id: 0x99afacd
+    name: BulldozeCost
+    type: Sint64
+    value: 5
+  - id: 0x27812810
+    name: OccupantSize
+    type: Float32
+    value: [ 1, 1, 1 ]
+  - id: 0x27812820
+    name: ResourceKeyType0
+    type: Uint32
+    value: [ 0x5ad0e817, 0xbadb57f1, 0xe110000 ]
+  - id: 0x27812832
+    name: Wealth
+    type: Uint8
+    value: 0x1
+  - id: 0x27812833
+    name: Purpose
+    type: Uint8
+    value: 0x5
+  - id: 0x27812834
+    name: CapacitySatisfied
+    type: Uint32
+    value: [ 0x4100, 0x2 ]
+  - id: 0x27812837
+    name: GrowthStage
+    type: Uint8
+    value: 0xff
+  - id: 0x2781283f
+    name: MonopolyPiece
+    type: Bool
+    value: true
+  - id: 0x27812851
+    name: PollutionAtCenter
+    type: Sint32
+    value:
+      - 1
+      - 3
+      - 3
+      - 0
+  - id: 0x2a499f85
+    name: QueryExemplarGUID
+    type: Uint32
+    value: 0x2a567dc1
+  - id: 0x68ee9764
+    name: PollutionRadii
+    type: Float32
+    value:
+      - 4
+      - 6
+      - 0
+      - 0
+  - id: 0x88fcd877
+    name: BuildingFoundation
+    type: Uint32
+    value: 0x194b1000
+  - id: 0x8a416a99
+    name: UserVisibleNameKey
+    type: Uint32
+    value: [ 0x2026960b, 0xa554ae0, 0xaa9ac231 ]
+  - id: 0xaa1dd397
+    name: SFXQuerySound
+    type: Uint32
+    value: 0xaa8a4b05

@@ -1,0 +1,232 @@
+parent: [ 0x0, 0x0, 0x0 ]
+properties:
+  - id: 0x10
+    name: ExemplarType
+    type: Uint32
+    value: 0x2
+  - id: 0x20
+    name: ExemplarName
+    type: String
+    value: Up94x94_SolarPowerPlant_PIMxD
+  - id: 0x911e2e7
+    name: AgeToMaintenanceCostMultiplierResponseCurve
+    type: Float32
+    value:
+      - 0
+      - 1
+      - 0.4000000059604645
+      - 1.0299999713897705
+      - 0.5
+      - 1.0499999523162842
+      - 0.6499999761581421
+      - 1.149999976158142
+      - 0.75
+      - 1.2999999523162842
+      - 0.8500000238418579
+      - 1.5499999523162842
+      - 0.8999999761581421
+      - 1.850000023841858
+      - 1
+      - 3
+  - id: 0x99afacd
+    name: BulldozeCost
+    type: Sint64
+    value: 2000
+  - id: 0xa4c13cb
+    name: SFXAmbienceDecayedSound
+    type: Uint32
+    value: 0x8a4c4443
+  - id: 0x27812810
+    name: OccupantSize
+    type: Float32
+    value: [ 94, 36, 94 ]
+  - id: 0x27812811
+    name: FillingDegree
+    type: Float32
+    value: [ 0.5 ]
+  - id: 0x27812821
+    name: ResourceKeyType1
+    type: Uint32
+    value: [ 0x5ad0e817, 0xbadb57f1, 0x1f440000 ]
+  - id: 0x27812832
+    name: Wealth
+    type: Uint8
+    value: 0x2
+  - id: 0x27812841
+    name: DemandCreated
+    type: Uint32
+    value:
+      - 0x2010
+      - 0x22
+      - 0x2020
+      - 0x27
+      - 0x2030
+      - 0x21
+      - 0x1810
+      - 0x22
+      - 0x1820
+      - 0x27
+      - 0x1830
+      - 0x21
+  - id: 0x27812851
+    name: PollutionAtCenter
+    type: Sint32
+    value:
+      - 16
+      - 16
+      - 35
+      - 0
+  - id: 0x27812852
+    name: PowerGenerated
+    type: Uint32
+    value: 0x3e80
+  - id: 0x27812853
+    name: PowerPlantType
+    type: Uint32
+    value: 0x7
+  - id: 0x27812854
+    name: PowerConsumed
+    type: Uint32
+    value: 0xe
+  - id: 0x29244db5
+    name: Flammability
+    type: Uint8
+    value: 0x32
+  - id: 0x2a499f85
+    name: QueryExemplarGUID
+    type: Uint32
+    value: 0xea5655e4
+  - id: 0x49beda31
+    name: MaxFireStage
+    type: Uint8
+    value: 0x4
+  - id: 0x49cac341
+    name: PlopCost
+    type: Sint64
+    value: 96000
+  - id: 0x4a4c132e
+    name: SFXActivateSound
+    type: Uint32
+    value: 0xa4c44bf
+  - id: 0x68ee9764
+    name: PollutionRadii
+    type: Float32
+    value:
+      - 3
+      - 3
+      - 0
+      - 0
+  - id: 0x6a43150f
+    name: HardFailureType
+    type: Uint32
+    value: 0x0
+  - id: 0x6a871b82
+    name: PluginPackID
+    type: Uint32
+    value: 0xb031ec3e
+  - id: 0x713c8912
+    type: Uint32
+    value: [ 0xa934e93e ]
+  - id: 0x8a1e07ee
+    name: AgeToOutputLevelResponseCurve
+    type: Float32
+    value:
+      - 0
+      - 1
+      - 0.4000000059604645
+      - 0.949999988079071
+      - 0.5
+      - 0.9200000166893005
+      - 0.6000000238418579
+      - 0.8600000143051147
+      - 0.699999988079071
+      - 0.7699999809265137
+      - 0.800000011920929
+      - 0.6000000238418579
+      - 0.8999999761581421
+      - 0.3499999940395355
+      - 1
+      - 0
+  - id: 0x8a2602b8
+    name: ItemIcon
+    type: Uint32
+    value: 0x2a35bb54
+  - id: 0x8a2602b9
+    name: ItemOrder
+    type: Uint32
+    value: 0x1
+  - id: 0x8a416a99
+    name: UserVisibleNameKey
+    type: Uint32
+    value: [ 0x2026960b, 0xa554ae0, 0x6a5ea691 ]
+  - id: 0x960f6258
+    type: Uint32
+    value: 0x3e80
+  - id: 0xaa1dd396
+    name: OccupantGroups
+    type: Uint32
+    value: [ 0x1004, 0x1400 ]
+  - id: 0xaa1dd397
+    name: SFXQuerySound
+    type: Uint32
+    value: 0xaa8b7cb7
+  - id: 0xaa1dd399
+    name: BuildingSubmenus
+    type: Uint32
+    value: [ 0x4ce12331 ]
+  - id: 0xaa83558f
+    name: CraneHints
+    type: Uint8
+    value: 0x3
+  - id: 0xc8ed2d84
+    name: WaterConsumed
+    type: Uint32
+    value: 0xf
+  - id: 0xc9b93a56
+    name: SFXDefaultPlopSound
+    type: Uint32
+    value: 0x6a5ec589
+  - id: 0xca19d7ca
+    name: SFXAmbienceGoodSound
+    type: Uint32
+    value: 0x6a4c4406
+  - id: 0xca416ab5
+    name: ItemDescriptionKey
+    type: Uint32
+    value: [ 0x2026960b, 0xa554ae0, 0x4a5ea691 ]
+  - id: 0xea1cf220
+    name: AgeDegradationRate
+    type: Float32
+    value: 0.0004166699945926666
+  - id: 0xea1cf221
+    name: SoftFailureThreshold
+    type: Float32
+    value: 0.8999999761581421
+  - id: 0xea1cf222
+    name: HardFailureThreshold
+    type: Float32
+    value: 1
+  - id: 0xea260589
+    name: LotResourceKey
+    type: Uint32
+    value: [ 0xca32df6d ]
+  - id: 0xea3209f8
+    name: ConditionalBuilding
+    type: Bool
+    value: true
+  - id: 0xea54d283
+    name: BudgetItemDepartment
+    type: Uint32
+    value: [ 0x8910bc8a ]
+  - id: 0xea54d284
+    name: BudgetItemLine
+    type: Uint32
+    value: [ 0x0 ]
+  - id: 0xea54d285
+    name: BudgetItemPurpose
+    type: Uint32
+    value: [ 0xca58e540 ]
+  - id: 0xea54d286
+    name: BudgetItemCost
+    type: Sint64
+    value: [ 1600 ]

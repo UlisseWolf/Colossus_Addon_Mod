@@ -1,0 +1,43 @@
+parent: [ 0x5342861, 0xa7bddf17, 0x80000026 ]
+properties:
+  - id: 0x20
+    name: ExemplarName
+    type: String
+    value: IM28x40_2ManuAnchor6_080E
+  - id: 0x99afacd
+    name: BulldozeCost
+    type: Sint64
+    value: 150
+  - id: 0x27812810
+    name: OccupantSize
+    type: Float32
+    value: [ 28, 33, 40 ]
+  - id: 0x27812821
+    name: ResourceKeyType1
+    type: Uint32
+    value: [ 0x5ad0e817, 0xbadb57f1, 0x80e0000 ]
+  - id: 0x27812834
+    name: CapacitySatisfied
+    type: Uint32
+    value: [ 0x4300, 0x72 ]
+  - id: 0x499afa38
+    name: ConstructionTime
+    type: Uint8
+    value: 0xf
+  - id: 0x8a1c3e72
+    name: Worth
+    type: Sint64
+    value: 150
+  - id: 0x8a416a99
+    name: UserVisibleNameKey
+    type: Uint32
+    value: [ 0x2026960b, 0xa554ae0, 0x6a5ea6d2 ]
+  - id: 0xaa1dd396
+    name: OccupantGroups
+    type: Uint32
+    value:
+      - 0x1002
+      - 0x14300
+      - 0x3000
+      - 0xb5c00eb0
+      - 0xb5c00eb1

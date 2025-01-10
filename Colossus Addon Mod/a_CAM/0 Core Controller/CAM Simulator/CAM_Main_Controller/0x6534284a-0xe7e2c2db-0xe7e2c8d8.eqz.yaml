@@ -1,0 +1,59 @@
+parent: [ 0x0, 0x0, 0x0 ]
+properties:
+  - id: 0x10
+    name: ExemplarType
+    type: Uint32
+    value: 0x5
+  - id: 0x20
+    name: ExemplarName
+    type: String
+    value: Land Value Sim
+  - id: 0x47e2c200
+    type: Uint8
+    value: 0x2
+  - id: 0x47e2c300
+    name: LandValueIntrinsicMinMax
+    type: Uint8
+    value: [ 0x1, 0x40 ]
+  - id: 0x47e2c301
+    name: LandValueWealthBoundaries
+    type: Uint8
+    value: [ 0x46, 0x78 ]
+  - id: 0x47e2c310
+    name: LandValueWaterEffect
+    type: Uint8
+    value: [ 0x32, 0xa ]
+  - id: 0x47e2c320
+    name: LandValueAltitudeEffect
+    type: Float32
+    value:
+      - 0
+      - 0
+      - 25
+      - 5
+      - 50
+      - 10
+      - 75
+      - 21
+      - 100
+      - 50
+      - 125
+      - 30
+      - 150
+      - 0
+  - id: 0x47e2c330
+    name: LandValueDesirabilityIDs
+    type: Uint32
+    value: [ 0x1030 ]
+  - id: 0x47e2c331
+    name: LandValueDesirabilityFactors
+    type: Float32
+    value: [ 2.5 ]
+  - id: 0x47e2c332
+    name: LandValueDesirabilityCurve
+    type: Float32
+    value:
+      - -255
+      - -255
+      - 255
+      - 255

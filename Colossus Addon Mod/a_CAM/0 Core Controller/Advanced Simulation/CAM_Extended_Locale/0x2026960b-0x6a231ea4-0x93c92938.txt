@@ -1,0 +1,10 @@
+<p>The Sims of #city# are demanding a theater dedicated to the vibrant (and eccentric) cultural aspects of Sim history.
+
+<p>This theater is an additional source of cultural education for your most discerning Sims. It can be used in conjunction with the Opera House and provides the same EQ boosts.
+
+<p>Its primary use is when the Opera House is overwhelmed with patrons. (More than one theater may be placed.)
+
+<p>Initial base cost: #building_initial_cost#<br>
+Monthly cost: #building_monthly_cost#
+
+<p><a href="#link_id#game.tool_plop_building(building_tool_types.MAXIS_THEATER);game.expire_advice()">Accept</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="#link_id#game.retire_advice()">Decline</a>

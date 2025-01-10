@@ -1,0 +1,6 @@
+Mayor, #city# is percolating like it's caffeine-charged, but there's no place for the city stewards to gather and consider city business. Now's the time to build a nice City Hall so we can hang those portraits of the old-timers and give our governing the dignity it deserves.<p>
+
+Initial base cost: #building_initial_cost#<br>
+Monthly cost: #building_monthly_cost#<p>
+
+<a href="#link_id#game.tool_plop_building(building_tool_types.CITY_HALL_PHASE1);game.expire_advice()">Accept</a>    &nbsp;&nbsp;&nbsp;&nbsp;    <a href="#link_id#game.retire_advice()">Decline</a>

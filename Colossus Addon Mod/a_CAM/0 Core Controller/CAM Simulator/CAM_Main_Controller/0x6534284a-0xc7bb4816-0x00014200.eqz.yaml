@@ -1,0 +1,22 @@
+parent: [ 0x0, 0x0, 0x0 ]
+properties:
+  - id: 0x10
+    name: ExemplarType
+    type: Uint32
+    value: 0x3
+  - id: 0x20
+    name: ExemplarName
+    type: String
+    value: Regional I-D
+  - id: 0x47bb3f10
+    name: MinimumValue
+    type: Sint32
+    value: -10000
+  - id: 0x47bb3f11
+    name: MaximumValue
+    type: Sint32
+    value: 54000
+  - id: 0x47bb3f31
+    name: Satisfies
+    type: Uint32
+    value: [ 0x24200, 0x64 ]

@@ -1,0 +1,18 @@
+parent: [ 0x0, 0x0, 0x0 ]
+properties:
+  - id: 0x10
+    name: ExemplarType
+    type: Uint32
+    value: 0x3
+  - id: 0x20
+    name: ExemplarName
+    type: String
+    value: I-R Cap
+  - id: 0x47bb3f20
+    name: InitialSupply
+    type: Sint32
+    value: 14000
+  - id: 0x47bb3f41
+    name: CapsDemand
+    type: Uint32
+    value: [ 0x24100 ]

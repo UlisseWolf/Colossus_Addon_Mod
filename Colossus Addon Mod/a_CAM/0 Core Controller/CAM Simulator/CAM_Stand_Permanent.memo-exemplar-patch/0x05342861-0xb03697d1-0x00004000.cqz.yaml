@@ -1,0 +1,18 @@
+parent: [ 0x0, 0x0, 0x0 ]
+properties:
+  - id: 0x20
+    name: ExemplarName
+    type: String
+    value: "Patch: RCI Industrial"
+  - id: 0x62e78a
+    name: ExemplarPatchTargets
+    type: Uint32
+    value: [ 0xc7bb4816, 0x4000 ]
+  - id: 0x47bb3f50
+    name: Sums
+    type: Uint32
+    value:
+      - 0x4100
+      - 0x4200
+      - 0x4300
+      - 0x4400

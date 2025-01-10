@@ -1,0 +1,160 @@
+parent: [ 0x0, 0x0, 0x0 ]
+properties:
+  - id: 0x10
+    name: ExemplarType
+    type: Uint32
+    value: 0x2
+  - id: 0x20
+    name: ExemplarName
+    type: String
+    value: RW26x26_HouseWorship_031E
+  - id: 0x99afacd
+    name: BulldozeCost
+    type: Sint64
+    value: 3400
+  - id: 0x27812810
+    name: OccupantSize
+    type: Float32
+    value: [ 26, 23, 26 ]
+  - id: 0x27812811
+    name: FillingDegree
+    type: Float32
+    value: [ 0.5 ]
+  - id: 0x27812821
+    name: ResourceKeyType1
+    type: Uint32
+    value: [ 0x5ad0e817, 0xbadb57f1, 0x31e0000 ]
+  - id: 0x27812832
+    name: Wealth
+    type: Uint8
+    value: 0x2
+  - id: 0x27812840
+    name: DemandSatisfied
+    type: Uint32
+    value: [ 0x1820, 0x1388 ]
+  - id: 0x27812841
+    name: DemandCreated
+    type: Uint32
+    value:
+      - 0x2010
+      - 0x1
+      - 0x2020
+      - 0x3
+      - 0x2030
+      - 0x1
+      - 0x1810
+      - 0x1
+      - 0x1820
+      - 0x3
+      - 0x1830
+      - 0x1
+  - id: 0x2781284f
+    type: Sint32
+    value: [ 0, 0 ]
+  - id: 0x27812850
+    type: Sint32
+    value: [ 70, 26 ]
+  - id: 0x27812851
+    name: PollutionAtCenter
+    type: Sint32
+    value:
+      - 1
+      - 1
+      - 6
+      - 0
+  - id: 0x27812854
+    name: PowerConsumed
+    type: Uint32
+    value: 0x7
+  - id: 0x29244db5
+    name: Flammability
+    type: Uint8
+    value: 0x1f
+  - id: 0x2a499f85
+    name: QueryExemplarGUID
+    type: Uint32
+    value: 0xca8b9aa2
+  - id: 0x49beda31
+    name: MaxFireStage
+    type: Uint8
+    value: 0x3
+  - id: 0x49cac341
+    name: PlopCost
+    type: Sint64
+    value: 0
+  - id: 0x68ee9764
+    name: PollutionRadii
+    type: Float32
+    value:
+      - 2
+      - 3
+      - 0
+      - 0
+  - id: 0x6a871b82
+    name: PluginPackID
+    type: Uint32
+    value: 0x31e0000
+  - id: 0x8a2602b8
+    name: ItemIcon
+    type: Uint32
+    value: 0xaa35b0fa
+  - id: 0x8a2602b9
+    name: ItemOrder
+    type: Uint32
+    value: 0x46
+  - id: 0x8a416a99
+    name: UserVisibleNameKey
+    type: Uint32
+    value: [ 0x2026960b, 0xa554ae0, 0xa5ea6a0 ]
+  - id: 0xaa1dd396
+    name: OccupantGroups
+    type: Uint32
+    value: [ 0x150b, 0x1907 ]
+  - id: 0xaa1dd397
+    name: SFXQuerySound
+    type: Uint32
+    value: 0xca4c65e0
+  - id: 0xaa60e745
+    name: GoofyStatResponseCurve
+    type: Float32
+    value:
+      - -100
+      - 0
+      - 100
+      - 70
+  - id: 0xaa83558f
+    name: CraneHints
+    type: Uint8
+    value: 0x0
+  - id: 0xc8ed2d84
+    name: WaterConsumed
+    type: Uint32
+    value: 0x5
+  - id: 0xc9b93a56
+    name: SFXDefaultPlopSound
+    type: Uint32
+    value: 0x4a5ec571
+  - id: 0xca416ab5
+    name: ItemDescriptionKey
+    type: Uint32
+    value: [ 0x2026960b, 0xa554ae0, 0xea5ea69f ]
+  - id: 0xca5b9305
+    name: MayorRatingEffect
+    type: Sint32
+    value: [ 4, 110 ]
+  - id: 0xea260589
+    name: LotResourceKey
+    type: Uint32
+    value: [ 0xca2b083a ]
+  - id: 0xea2e078b
+    name: CityExclusionGroup
+    type: Uint32
+    value: [ 0x8a9adcb0 ]
+  - id: 0xea3209f8
+    name: ConditionalBuilding
+    type: Bool
+    value: true
+  - id: 0xea54d286
+    name: BudgetItemCost
+    type: Sint64
+    value: [ 0 ]

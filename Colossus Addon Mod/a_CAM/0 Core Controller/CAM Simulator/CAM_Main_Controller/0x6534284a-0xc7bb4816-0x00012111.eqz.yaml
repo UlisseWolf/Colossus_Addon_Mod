@@ -1,0 +1,18 @@
+parent: [ 0x0, 0x0, 0x0 ]
+properties:
+  - id: 0x10
+    name: ExemplarType
+    type: Uint32
+    value: 0x3
+  - id: 0x20
+    name: ExemplarName
+    type: String
+    value: Regional WF$ EQ1
+  - id: 0x47bb3f31
+    name: Satisfies
+    type: Uint32
+    value: [ 0x22111, 0x32 ]
+  - id: 0x47bb3f32
+    name: Contributes
+    type: Uint32
+    value: [ 0x22111, 0x32 ]

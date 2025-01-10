@@ -1,0 +1,620 @@
+parent: [ 0x5342861, 0xa8fbd372, 0x6a0a315b ]
+properties:
+  - id: 0x10
+    name: ExemplarType
+    type: Uint32
+    value: 0x10
+  - id: 0x20
+    name: ExemplarName
+    type: String
+    value: I-d5_3x5
+  - id: 0x27812837
+    name: GrowthStage
+    type: Uint8
+    value: 0x5
+  - id: 0x4a4a88f0
+    name: LotConfigRequiredRoads
+    type: Uint8
+    value: 0x8
+  - id: 0x88edc789
+    name: LotConfigPropertyVersion
+    type: Uint8
+    value: 0x2
+  - id: 0x88edc790
+    name: LotConfigPropertySize
+    type: Uint8
+    value: [ 0x3, 0x5 ]
+  - id: 0x88edc791
+    name: LotConfigPropertyFamily
+    type: Uint32
+    value: [ 0x70000007 ]
+  - id: 0x88edc793
+    name: LotConfigPropertyZoneTypes
+    type: Uint8
+    value: [ 0x8, 0x9 ]
+  - id: 0x88edc795
+    name: LotConfigPropertyWealthTypes
+    type: Uint8
+    value: [ 0x2 ]
+  - id: 0x88edc796
+    name: LotConfigPropertyPurposeTypes
+    type: Uint8
+    value: [ 0x6 ]
+  - id: 0x88edc900
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x1
+      - 0x20
+      - 0x0
+      - 0x21de5d
+      - 0x0
+      - 0x9a291
+      - 0x20de5d
+      - 0x8a291
+      - 0x22de5d
+      - 0xaa291
+      - 0x0
+      - 0x6aac8bd5
+      - 0xa000007f
+  - id: 0x88edc901
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x1
+      - 0x10
+      - 0x0
+      - 0x263f88
+      - 0x0
+      - 0x14badc
+      - 0x23bf88
+      - 0x113adc
+      - 0x28bf88
+      - 0x183adc
+      - 0x0
+      - 0x8aac8bc4
+      - 0x1e990000
+  - id: 0x88edc902
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x1
+      - 0x10
+      - 0x1
+      - 0xa3797
+      - 0x0
+      - 0x1c5238
+      - 0x5b797
+      - 0x195238
+      - 0xeb797
+      - 0x1f5238
+      - 0x0
+      - 0x6aac8bb6
+      - 0x1c410000
+  - id: 0x88edc903
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x1
+      - 0x10
+      - 0x0
+      - 0x30ccc
+      - 0x0
+      - 0x1c5238
+      - 0xccc
+      - 0x17d238
+      - 0x60ccc
+      - 0x20d238
+      - 0x0
+      - 0xaaac8bb3
+      - 0x1c410000
+  - id: 0x88edc904
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x1
+      - 0x10
+      - 0x0
+      - 0x24bb54
+      - 0x0
+      - 0x1d3273
+      - 0x20bb54
+      - 0x193273
+      - 0x28bb54
+      - 0x213273
+      - 0x0
+      - 0x2aac8b91
+      - 0x1d350000
+  - id: 0x88edc905
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x1
+      - 0x10
+      - 0x2
+      - 0x2e7333
+      - 0x0
+      - 0x1524e7
+      - 0x2cf333
+      - 0xea4e7
+      - 0x2ff333
+      - 0x1ba4e7
+      - 0x0
+      - 0xaa825ee0
+      - 0x1d550000
+  - id: 0x88edc906
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x1
+      - 0x10
+      - 0x3
+      - 0x2ee666
+      - 0x0
+      - 0x1ef2eb
+      - 0x2dd999
+      - 0x1c72eb
+      - 0x2ff332
+      - 0x2172eb
+      - 0x0
+      - 0xea825ea7
+      - 0x1d380000
+  - id: 0x88edc907
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x1
+      - 0x10
+      - 0x1
+      - 0x1a4e7a
+      - 0x0
+      - 0x17184a
+      - 0x144e7a
+      - 0x14184a
+      - 0x204e7a
+      - 0x1a184a
+      - 0x0
+      - 0x8a825e89
+      - 0x590000
+  - id: 0x88edc908
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x1
+      - 0x10
+      - 0x1
+      - 0x172eb6
+      - 0x0
+      - 0xa55f4
+      - 0x112eb6
+      - 0x755f4
+      - 0x1d2eb6
+      - 0xd55f4
+      - 0x0
+      - 0x2a825e85
+      - 0x590000
+  - id: 0x88edc909
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x1
+      - 0x10
+      - 0x1
+      - 0x780ee
+      - 0x0
+      - 0x8612a
+      - 0x180ee
+      - 0x5612a
+      - 0xd80ee
+      - 0xb612a
+      - 0x0
+      - 0x8a825e80
+      - 0x590000
+  - id: 0x88edc90a
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x1
+      - 0x10
+      - 0x0
+      - 0x247f10
+      - 0x0
+      - 0xc4345
+      - 0x22ff10
+      - 0x7c345
+      - 0x25ff10
+      - 0x10c345
+      - 0x0
+      - 0x2a331472
+      - 0x1d430000
+  - id: 0x88edc90b
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x1
+      - 0x10
+      - 0x0
+      - 0x2975b8
+      - 0x0
+      - 0xa380e
+      - 0x27f5b8
+      - 0x5b80e
+      - 0x2af5b8
+      - 0xeb80e
+      - 0x0
+      - 0x8a331471
+      - 0x1d430000
+  - id: 0x88edc90c
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x1
+      - 0x10
+      - 0x1
+      - 0xa380e
+      - 0x0
+      - 0x14badc
+      - 0x4380e
+      - 0x11badc
+      - 0x10380e
+      - 0x17badc
+      - 0x0
+      - 0xea33145d
+      - 0x590000
+  - id: 0x88edc90d
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x1
+      - 0x20
+      - 0x0
+      - 0x156f2e
+      - 0x360000
+      - 0x489cf7
+      - 0x12ef2e
+      - 0x461cf7
+      - 0x17ef2e
+      - 0x4b1cf7
+      - 0x0
+      - 0x6a33142d
+      - 0x5c1000
+  - id: 0x88edc90e
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x1
+      - 0x20
+      - 0x0
+      - 0x24a4e7
+      - 0x2d0000
+      - 0x22fa64
+      - 0x2224e7
+      - 0x207a64
+      - 0x2724e7
+      - 0x257a64
+      - 0x0
+      - 0xca3313eb
+      - 0x5c1000
+  - id: 0x88edc90f
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x1
+      - 0x20
+      - 0x0
+      - 0x1ceeb7
+      - 0x2d0000
+      - 0x2310d1
+      - 0x1a6eb7
+      - 0x2090d1
+      - 0x1f6eb7
+      - 0x2590d1
+      - 0x0
+      - 0xaa3313e9
+      - 0x5c1000
+  - id: 0x88edc910
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x1
+      - 0x20
+      - 0x0
+      - 0x153886
+      - 0x2d0000
+      - 0x23273d
+      - 0x12b886
+      - 0x20a73d
+      - 0x17b886
+      - 0x25a73d
+      - 0x0
+      - 0x8a3313e6
+      - 0x5c1000
+  - id: 0x88edc911
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x1
+      - 0x20
+      - 0x0
+      - 0xdc255
+      - 0x2d0000
+      - 0x22f2eb
+      - 0xb4255
+      - 0x2072eb
+      - 0x104255
+      - 0x2572eb
+      - 0x0
+      - 0x2a3313e3
+      - 0x5c1000
+  - id: 0x88edc912
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x1
+      - 0x20
+      - 0x0
+      - 0x60c25
+      - 0x2d0000
+      - 0x230957
+      - 0x38c25
+      - 0x208957
+      - 0x88c25
+      - 0x258957
+      - 0x0
+      - 0xea3313d3
+      - 0x5c1000
+  - id: 0x88edc913
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x2
+      - 0x0
+      - 0x0
+      - 0x1ac612
+      - 0x0
+      - 0x2c957d
+      - 0x12c612
+      - 0x24957d
+      - 0x22c613
+      - 0x34957d
+      - 0x0
+      - 0x8a320e44
+      - 0x25420000
+  - id: 0x88edc914
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x0
+      - 0x0
+      - 0x2
+      - 0x180000
+      - 0x0
+      - 0x38f335
+      - 0xccc
+      - 0x21f335
+      - 0x2ff333
+      - 0x4ff335
+      - 0x0
+      - 0xca2d0001
+      - 0x70000007
+  - id: 0x88edc915
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x2
+      - 0x0
+      - 0x0
+      - 0xbf886
+      - 0x0
+      - 0x9a291
+      - 0x3f886
+      - 0x1a291
+      - 0x13f886
+      - 0x11a291
+      - 0x0
+      - 0xaa320e32
+      - 0x25420000
+  - id: 0x88edc916
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x2
+      - 0x0
+      - 0x0
+      - 0x1ce7b5
+      - 0x0
+      - 0xb184a
+      - 0x14e7b5
+      - 0x3184a
+      - 0x24e7b5
+      - 0x13184a
+      - 0x0
+      - 0x6a320e33
+      - 0x25420000
+  - id: 0x88edc917
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x2
+      - 0x0
+      - 0x0
+      - 0x27f5c2
+      - 0x0
+      - 0xc4345
+      - 0x1ff5c2
+      - 0x44345
+      - 0x2ff5c2
+      - 0x144345
+      - 0x0
+      - 0x6a320e34
+      - 0x25420000
+  - id: 0x88edc918
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x2
+      - 0x0
+      - 0x0
+      - 0x27f5c2
+      - 0x0
+      - 0x1b273d
+      - 0x1ff5c2
+      - 0x13273d
+      - 0x2ff5c2
+      - 0x23273d
+      - 0x0
+      - 0xa320e35
+      - 0x25420000
+  - id: 0x88edc919
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x2
+      - 0x0
+      - 0x0
+      - 0x1a91c0
+      - 0x0
+      - 0x1b71fc
+      - 0x1291c0
+      - 0x1371fc
+      - 0x2291c0
+      - 0x2371fc
+      - 0x0
+      - 0x4a320e36
+      - 0x25420000
+  - id: 0x88edc91a
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x2
+      - 0x0
+      - 0x0
+      - 0x80a3c
+      - 0x0
+      - 0x1a4701
+      - 0xa3d
+      - 0x124701
+      - 0x100a3c
+      - 0x224701
+      - 0x0
+      - 0x4a320e37
+      - 0x25420000
+  - id: 0x88edc91b
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x2
+      - 0x0
+      - 0x0
+      - 0x9ed50
+      - 0x0
+      - 0x2975b8
+      - 0x1ed50
+      - 0x2175b8
+      - 0x11ed50
+      - 0x3175b8
+      - 0x0
+      - 0xca320e38
+      - 0x25420000
+  - id: 0x88edc91c
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x2
+      - 0x0
+      - 0x0
+      - 0x87797
+      - 0x0
+      - 0x3afa64
+      - 0x7797
+      - 0x32fa64
+      - 0x107797
+      - 0x42fa65
+      - 0x0
+      - 0xea320e39
+      - 0x25420000
+  - id: 0x88edc91d
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x2
+      - 0x0
+      - 0x0
+      - 0xa380e
+      - 0x0
+      - 0x47d327
+      - 0x2380e
+      - 0x3fd327
+      - 0x12380f
+      - 0x4fd327
+      - 0x0
+      - 0x2a320e3a
+      - 0x25420000
+  - id: 0x88edc91e
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x2
+      - 0x0
+      - 0x0
+      - 0x1a4701
+      - 0x0
+      - 0x478868
+      - 0x124701
+      - 0x3f8868
+      - 0x224701
+      - 0x4f8868
+      - 0x0
+      - 0xca320e3b
+      - 0x25420000
+  - id: 0x88edc91f
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x2
+      - 0x0
+      - 0x0
+      - 0x263f88
+      - 0x0
+      - 0x465d6e
+      - 0x1e3f88
+      - 0x3e5d6e
+      - 0x2e3f88
+      - 0x4e5d6e
+      - 0x0
+      - 0x2a320e3c
+      - 0x25420000
+  - id: 0x88edc920
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x2
+      - 0x0
+      - 0x0
+      - 0x27f5c2
+      - 0x0
+      - 0x3603bc
+      - 0x1ff5c2
+      - 0x2e03bc
+      - 0x2ff5c2
+      - 0x3e03bc
+      - 0x0
+      - 0xaa320e3d
+      - 0x25420000
+  - id: 0x88edc921
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x2
+      - 0x0
+      - 0x0
+      - 0x27f5c2
+      - 0x0
+      - 0x27b541
+      - 0x1ff5c2
+      - 0x1fb541
+      - 0x2ff5c2
+      - 0x2fb541
+      - 0x0
+      - 0x4a320e3e
+      - 0x25420000

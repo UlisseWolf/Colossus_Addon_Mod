@@ -1,0 +1,202 @@
+parent: [ 0x0, 0x0, 0x0 ]
+properties:
+  - id: 0x10
+    name: ExemplarType
+    type: Uint32
+    value: 0x2
+  - id: 0x20
+    name: ExemplarName
+    type: String
+    value: Uw14x14_WaterPumpingStation_PIMxD
+  - id: 0x911e2e7
+    name: AgeToMaintenanceCostMultiplierResponseCurve
+    type: Float32
+    value:
+      - 0
+      - 1
+      - 0.5
+      - 1.0299999713897705
+      - 0.6499999761581421
+      - 1.100000023841858
+      - 0.75
+      - 1.2000000476837158
+      - 0.8999999761581421
+      - 1.5
+      - 1
+      - 1.75
+      - 1.100000023841858
+      - 2.200000047683716
+  - id: 0x99afacd
+    name: BulldozeCost
+    type: Sint64
+    value: 100
+  - id: 0xa4c13cb
+    name: SFXAmbienceDecayedSound
+    type: Uint32
+    value: 0x2a55aaca
+  - id: 0x27812810
+    name: OccupantSize
+    type: Float32
+    value: [ 14, 15, 14 ]
+  - id: 0x27812811
+    name: FillingDegree
+    type: Float32
+    value: [ 0.3499999940395355 ]
+  - id: 0x27812821
+    name: ResourceKeyType1
+    type: Uint32
+    value: [ 0x5ad0e817, 0xbadb57f1, 0x1f490000 ]
+  - id: 0x27812832
+    name: Wealth
+    type: Uint8
+    value: 0x2
+  - id: 0x27812851
+    name: PollutionAtCenter
+    type: Sint32
+    value:
+      - 1
+      - 0
+      - 0
+      - 0
+  - id: 0x27812854
+    name: PowerConsumed
+    type: Uint32
+    value: 0x6
+  - id: 0x29244db5
+    name: Flammability
+    type: Uint8
+    value: 0x28
+  - id: 0x2a499f85
+    name: QueryExemplarGUID
+    type: Uint32
+    value: 0xea565970
+  - id: 0x48f23a7e
+    name: WaterSource
+    type: Uint8
+    value: 0x2
+  - id: 0x49beda31
+    name: MaxFireStage
+    type: Uint8
+    value: 0x2
+  - id: 0x49cac341
+    name: PlopCost
+    type: Sint64
+    value: 1075
+  - id: 0x4a4c132e
+    name: SFXActivateSound
+    type: Uint32
+    value: 0xa55aaec
+  - id: 0x68ee9764
+    name: PollutionRadii
+    type: Float32
+    value:
+      - 1
+      - 0
+      - 0
+      - 0
+  - id: 0x6a43150f
+    name: HardFailureType
+    type: Uint32
+    value: 0x0
+  - id: 0x6a871b82
+    name: PluginPackID
+    type: Uint32
+    value: 0x45593173
+  - id: 0x88ed3303
+    name: WaterProduced
+    type: Uint32
+    value: 0x7918
+  - id: 0x88fcd877
+    name: BuildingFoundation
+    type: Uint32
+    value: 0x2a711000
+  - id: 0x8a1e07ee
+    name: AgeToOutputLevelResponseCurve
+    type: Float32
+    value:
+      - 0
+      - 1
+      - 0.5
+      - 0.949999988079071
+      - 0.6499999761581421
+      - 0.8999999761581421
+      - 0.75
+      - 0.800000011920929
+      - 0.8999999761581421
+      - 0.550000011920929
+      - 1
+      - 0.30000001192092896
+      - 1.100000023841858
+      - 0
+  - id: 0x8a2602b8
+    name: ItemIcon
+    type: Uint32
+    value: 0x14215ebb
+  - id: 0x8a2602b9
+    name: ItemOrder
+    type: Uint32
+    value: 0x3
+  - id: 0x8a416a99
+    name: UserVisibleNameKey
+    type: Uint32
+    value: [ 0x2026960b, 0xa554ae0, 0xaa5ea68d ]
+  - id: 0xaa1dd396
+    name: OccupantGroups
+    type: Uint32
+    value: [ 0x1004, 0x1401 ]
+  - id: 0xaa1dd397
+    name: SFXQuerySound
+    type: Uint32
+    value: 0xaa5b1452
+  - id: 0xaa83558f
+    name: CraneHints
+    type: Uint8
+    value: 0x0
+  - id: 0xc8ed2d84
+    name: WaterConsumed
+    type: Uint32
+    value: 0x1
+  - id: 0xc9b93a56
+    name: SFXDefaultPlopSound
+    type: Uint32
+    value: 0x4a5ec571
+  - id: 0xca19d7ca
+    name: SFXAmbienceGoodSound
+    type: Uint32
+    value: 0xea5b166e
+  - id: 0xca416ab5
+    name: ItemDescriptionKey
+    type: Uint32
+    value: [ 0x2026960b, 0xa554ae0, 0x8a5ea68d ]
+  - id: 0xea1cf220
+    name: AgeDegradationRate
+    type: Float32
+    value: 0.0005555599927902222
+  - id: 0xea1cf221
+    name: SoftFailureThreshold
+    type: Float32
+    value: 1
+  - id: 0xea1cf222
+    name: HardFailureThreshold
+    type: Float32
+    value: 1.100000023841858
+  - id: 0xea260589
+    name: LotResourceKey
+    type: Uint32
+    value: [ 0x3000002 ]
+  - id: 0xea54d283
+    name: BudgetItemDepartment
+    type: Uint32
+    value: [ 0xaa4014b4 ]
+  - id: 0xea54d284
+    name: BudgetItemLine
+    type: Uint32
+    value: [ 0x0 ]
+  - id: 0xea54d285
+    name: BudgetItemPurpose
+    type: Uint32
+    value: [ 0xca58c9d5 ]
+  - id: 0xea54d286
+    name: BudgetItemCost
+    type: Sint64
+    value: [ 500 ]

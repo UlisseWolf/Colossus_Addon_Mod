@@ -1,0 +1,180 @@
+parent: [ 0x0, 0x0, 0x0 ]
+properties:
+  - id: 0x10
+    name: ExemplarType
+    type: Uint32
+    value: 0x2
+  - id: 0x20
+    name: ExemplarName
+    type: String
+    value: RW9x11_lighthouse_0395
+  - id: 0x99afacd
+    name: BulldozeCost
+    type: Sint64
+    value: 180
+  - id: 0x27812810
+    name: OccupantSize
+    type: Float32
+    value: [ 9, 33, 11 ]
+  - id: 0x27812811
+    name: FillingDegree
+    type: Float32
+    value: [ 0.5 ]
+  - id: 0x27812821
+    name: ResourceKeyType1
+    type: Uint32
+    value: [ 0x5ad0e817, 0xbadb57f1, 0x3950000 ]
+  - id: 0x27812832
+    name: Wealth
+    type: Uint8
+    value: 0x0
+  - id: 0x27812840
+    name: DemandSatisfied
+    type: Uint32
+    value:
+      - 0x4a00
+      - 0xbb8
+      - 0x4b00
+      - 0xbb8
+  - id: 0x27812841
+    name: DemandCreated
+    type: Uint32
+    value:
+      - 0x2010
+      - 0x0
+      - 0x2020
+      - 0x0
+      - 0x2030
+      - 0x0
+      - 0x1810
+      - 0x0
+      - 0x1820
+      - 0x0
+      - 0x1830
+      - 0x0
+  - id: 0x2781284f
+    type: Sint32
+    value: [ 50, 22 ]
+  - id: 0x27812850
+    type: Sint32
+    value: [ -50, 22 ]
+  - id: 0x27812851
+    name: PollutionAtCenter
+    type: Sint32
+    value:
+      - 1
+      - 1
+      - 1
+      - 0
+  - id: 0x27812854
+    name: PowerConsumed
+    type: Uint32
+    value: 0x3a
+  - id: 0x29244db5
+    name: Flammability
+    type: Uint8
+    value: 0x24
+  - id: 0x2a499f85
+    name: QueryExemplarGUID
+    type: Uint32
+    value: 0x2c096de6
+  - id: 0x49beda31
+    name: MaxFireStage
+    type: Uint8
+    value: 0x2
+  - id: 0x49cac341
+    name: PlopCost
+    type: Sint64
+    value: 6500
+  - id: 0x4a4c132e
+    name: SFXActivateSound
+    type: Uint32
+    value: 0x2a8b7db4
+  - id: 0x68ee9764
+    name: PollutionRadii
+    type: Float32
+    value:
+      - 2
+      - 3
+      - 0
+      - 0
+  - id: 0x6a871b82
+    name: PluginPackID
+    type: Uint32
+    value: 0x3950000
+  - id: 0x8a2602b8
+    name: ItemIcon
+    type: Uint32
+    value: 0x2bfdaf12
+  - id: 0x8a2602b9
+    name: ItemOrder
+    type: Uint32
+    value: 0x80
+  - id: 0x8a416a99
+    name: UserVisibleNameKey
+    type: Uint32
+    value: [ 0x2026960b, 0xa554ae0, 0x6bf1e577 ]
+  - id: 0xaa1dd396
+    name: OccupantGroups
+    type: Uint32
+    value: [ 0x150b ]
+  - id: 0xaa1dd397
+    name: SFXQuerySound
+    type: Uint32
+    value: 0x4bfccb40
+  - id: 0xaa60e745
+    name: GoofyStatResponseCurve
+    type: Float32
+    value:
+      - -100
+      - 8
+      - 100
+      - 1
+  - id: 0xaa83558f
+    name: CraneHints
+    type: Uint8
+    value: 0x3
+  - id: 0xc8ed2d84
+    name: WaterConsumed
+    type: Uint32
+    value: 0x0
+  - id: 0xc9b93a56
+    name: SFXDefaultPlopSound
+    type: Uint32
+    value: 0xea5ec59f
+  - id: 0xca19d7ca
+    name: SFXAmbienceGoodSound
+    type: Uint32
+    value: 0x6a92274b
+  - id: 0xca416ab5
+    name: ItemDescriptionKey
+    type: Uint32
+    value: [ 0x2026960b, 0xa554ae0, 0x8bf1e587 ]
+  - id: 0xca5b9305
+    name: MayorRatingEffect
+    type: Sint32
+    value: [ 3, 220 ]
+  - id: 0xea260589
+    name: LotResourceKey
+    type: Uint32
+    value: [ 0xebfda1cc ]
+  - id: 0xea3209f8
+    name: ConditionalBuilding
+    type: Bool
+    value: true
+  - id: 0xea54d283
+    name: BudgetItemDepartment
+    type: Uint32
+    value: [ 0xea59717a ]
+  - id: 0xea54d284
+    name: BudgetItemLine
+    type: Uint32
+    value: [ 0x0 ]
+  - id: 0xea54d285
+    name: BudgetItemPurpose
+    type: Uint32
+    value: [ 0xaa59670c ]
+  - id: 0xea54d286
+    name: BudgetItemCost
+    type: Sint64
+    value: [ 100 ]

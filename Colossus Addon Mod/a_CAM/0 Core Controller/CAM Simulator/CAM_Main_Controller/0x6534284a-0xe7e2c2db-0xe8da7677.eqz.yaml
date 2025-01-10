@@ -1,0 +1,137 @@
+parent: [ 0x0, 0x0, 0x0 ]
+properties:
+  - id: 0x10
+    name: ExemplarType
+    type: Uint32
+    value: 0x5
+  - id: 0x20
+    name: ExemplarName
+    type: String
+    value: Building Development
+  - id: 0x2a2d7824
+    name: LotDeveloperCostMultiplierVsLotSlope
+    type: Float32
+    value:
+      - 0
+      - 0
+      - 0.5555559992790222
+      - 10
+      - 1.111111044883728
+      - 20
+      - 1.6666669845581055
+      - 40
+      - 2.222222089767456
+      - 80
+      - 2.777777910232544
+      - 170
+      - 3.3333330154418945
+      - 350
+      - 3.8888890743255615
+      - 720
+      - 4.4444451332092285
+      - 1470
+      - 5
+      - 3000
+  - id: 0x2ab845e7
+    name: LotDeveloperCostToDemolishDestroyedTile
+    type: Uint32
+    value: 0x2
+  - id: 0x47e2c380
+    name: ConstructionResourcesMinMax
+    type: Uint32
+    value: [ 0x2000, 0xd530 ]
+  - id: 0x47e2c383
+    name: StagePopluationMultiplier
+    type: Float32
+    value: [ 1.2000000476837158, 1.100000023841858, 1 ]
+  - id: 0x47e2c400
+    name: LotDeveloperStayNewTime
+    type: Uint32
+    value: 0x5a
+  - id: 0x47e2c401
+    name: LotDeveloperOccupancyThresholds
+    type: Float32
+    value: [ 0.30000001192092896, 0.44999998807907104, 0.5 ]
+  - id: 0x47e2c500
+    name: TractDeveloperOverbuild
+    type: Float32
+    value: 1.5
+  - id: 0x47e2c501
+    name: TractDeveloperReoccupyThresholds
+    type: Float32
+    value: [ 0, 1.2000000476837158 ]
+  - id: 0x47e2c502
+    name: TractDeveloperRedevelopSizeThreshold
+    type: Float32
+    value: 1.5
+  - id: 0x47e2c510
+    name: TractDeveloperDemolitionCosts
+    type: Float32
+    value: [ 1, 0.20000000298023224 ]
+  - id: 0x47e2c511
+    name: TractDeveloperNewLotCosts
+    type: Float32
+    value: [ 1, 1 ]
+  - id: 0x47e2c530
+    name: TractDeveloperOccupancyVariation
+    type: Float32
+    value: 0
+  - id: 0x47e2c531
+    name: TractDeveloperMinVacancyRange
+    type: Float32
+    value: [ 0.009999999776482582, 0.10000000149011612 ]
+  - id: 0x47e2c540
+    name: TractDeveloperKickOutLowerWealth
+    type: Bool
+    value: true
+  - id: 0x47e2c550
+    name: TractDeveloperAvailableStyles
+    type: Uint32
+    value:
+      - 0x2000
+      - 0x2001
+      - 0x2002
+      - 0x2003
+  - id: 0x47e2c551
+    name: TractDeveloperYearsBetweenStyles
+    type: Sint32
+    value: 5
+  - id: 0xe900ea24
+    name: KMaxCellAltitudeDeltaForFlatnessProperty
+    type: Float32
+    value: 1
+  - id: 0xe900ea25
+    name: KMaxSlopeForFlatnessProperty
+    type: Float32
+    value: 1
+  - id: 0xe900ea26
+    name: KDefaultLotFoundationTypeProperty
+    type: Uint32
+    value: 0x890b7312
+  - id: 0xe900ea27
+    name: KShouldAttemptLotLevellingProperty
+    type: Uint32
+    value: 0x1
+  - id: 0xe900ea28
+    name: KShouldAttemptInternalLotLevellingProperty
+    type: Uint32
+    value: 0x1
+  - id: 0xe900ea29
+    name: KLotAutoLevelInternalAltitudeDeltaProperty
+    type: Float32
+    value: 20
+  - id: 0xe900ea2a
+    name: MaxAreaSlopeAllowedForLevellingProperty
+    type: Float32
+    value: 40
+  - id: 0xe900ea2b
+    name: LotDeveloperNightUpdateInterval
+    type: Uint32
+    value: 0x64
+  - id: 0xe900ea2c
+    name: LotDeveloperNightUpdateCount
+    type: Uint32
+    value: 0xa
+  - id: 0xe900ea2d
+    type: Uint32
+    value: 0x1

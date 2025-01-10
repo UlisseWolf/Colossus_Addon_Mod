@@ -1,0 +1,110 @@
+parent: [ 0x5342861, 0xa8fbd372, 0x4aa3fc12 ]
+properties:
+  - id: 0x10
+    name: ExemplarType
+    type: Uint32
+    value: 0x10
+  - id: 0x20
+    name: ExemplarName
+    type: String
+    value: I-ht6_1x2
+  - id: 0x27812837
+    name: GrowthStage
+    type: Uint8
+    value: 0x6
+  - id: 0x4a4a88f0
+    name: LotConfigRequiredRoads
+    type: Uint8
+    value: 0x8
+  - id: 0x88edc789
+    name: LotConfigPropertyVersion
+    type: Uint8
+    value: 0x2
+  - id: 0x88edc790
+    name: LotConfigPropertySize
+    type: Uint8
+    value: [ 0x1, 0x2 ]
+  - id: 0x88edc791
+    name: LotConfigPropertyFamily
+    type: Uint32
+    value: [ 0x70000043 ]
+  - id: 0x88edc793
+    name: LotConfigPropertyZoneTypes
+    type: Uint8
+    value: [ 0x9 ]
+  - id: 0x88edc795
+    name: LotConfigPropertyWealthTypes
+    type: Uint8
+    value: [ 0x3 ]
+  - id: 0x88edc796
+    name: LotConfigPropertyPurposeTypes
+    type: Uint8
+    value: [ 0x8 ]
+  - id: 0x88edc900
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x1
+      - 0x10
+      - 0x0
+      - 0xb8fe2
+      - 0x0
+      - 0x291c0
+      - 0x90fe2
+      - 0x184f3
+      - 0xe0fe2
+      - 0x39e8c
+      - 0x0
+      - 0x6a8647c6
+      - 0x1d380000
+  - id: 0x88edc901
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x0
+      - 0x0
+      - 0x2
+      - 0x7ffff
+      - 0x0
+      - 0x11f333
+      - 0xffff
+      - 0x3f333
+      - 0xeffff
+      - 0x1ff333
+      - 0x0
+      - 0xca2d0067
+      - 0x70000043
+  - id: 0x88edc902
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x2
+      - 0x0
+      - 0x0
+      - 0x71fc4
+      - 0x0
+      - 0xa82cd
+      - 0xffff1fc5
+      - 0x282cd
+      - 0xf1fc4
+      - 0x1282cd
+      - 0x0
+      - 0xcaa36779
+      - 0x258c2000
+  - id: 0x88edc903
+    name: LotConfigPropertyLotObject
+    type: Uint32
+    value:
+      - 0x2
+      - 0x0
+      - 0x0
+      - 0x7d327
+      - 0x0
+      - 0x19939e
+      - 0xffffd328
+      - 0x11939e
+      - 0xfd327
+      - 0x21939f
+      - 0x0
+      - 0xcaa3677a
+      - 0x258c2000
