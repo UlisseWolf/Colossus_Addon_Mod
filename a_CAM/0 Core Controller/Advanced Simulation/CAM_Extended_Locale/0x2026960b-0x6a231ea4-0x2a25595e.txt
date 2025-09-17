@@ -1,5 +1,0 @@
-Metropolis Hall is not available.
-Requirements:
-    - City Hall Placed
-    - City Size: #tuning_constants.CITYHALL3_POP#
-    - Mayor Rating: #tuning_constants.CITYHALL3_MR#

@@ -1,6 +1,0 @@
-Mayor, it is shocking the mounds of paperwork that managing this city produces -- I wouldn't be surprised if there was a clerk or two buried beneath those depositions on your desk alone. It's time for a Metropolis Hall with lots of bright and beautiful spaces -  or we'll have to hire 50 new sanitation engineers just to tidy up the old place.<p>
-
-Initial base cost: #building_initial_cost#<br>
-Monthly cost: #building_monthly_cost#<p>
-
-<a href="#link_id#game.tool_plop_building(building_tool_types.CITY_HALL_PHASE3);game.expire_advice()">Accept</a>     &nbsp;&nbsp;&nbsp;&nbsp;   <a href="#link_id#game.retire_advice()">Decline</a>

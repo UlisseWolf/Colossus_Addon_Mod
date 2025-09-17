@@ -1,5 +1,0 @@
-City Hall is not available.
-Requirements:
-    - Town Hall Placed
-    - City Size: #tuning_constants.CITYHALL2_POP#
-    - Mayor Rating: #tuning_constants.CITYHALL2_MR#

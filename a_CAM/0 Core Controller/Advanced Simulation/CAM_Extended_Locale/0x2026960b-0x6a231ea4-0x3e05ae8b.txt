@@ -1,4 +1,0 @@
-Maxis Cultural Theater is not available.
-Requirements:
-    - Opera House must be present in the city tile.
-Note: You will need to run game time after placing the Opera House.

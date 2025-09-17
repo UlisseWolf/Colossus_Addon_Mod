@@ -1,6 +1,0 @@
-<p>Gosh Mayor, it's standing room only in every government office in #city#, and sometimes they are standing on each others' toes. It's nice that the city has grown to such dimensions, but our Town Hall hasn't grown with it. Put a big, spanking new City Hall on the map so we'll be able to open a desk drawer without standing on the desk.<p>
-
-Initial base cost: #building_initial_cost#<br>
-Monthly cost: #building_monthly_cost#<p>
-
-<a href="#link_id#game.tool_plop_building(building_tool_types.CITY_HALL_PHASE2);game.expire_advice()">Accept</a>    &nbsp;&nbsp;&nbsp;&nbsp;    <a href="#link_id#game.retire_advice()">Decline</a>
