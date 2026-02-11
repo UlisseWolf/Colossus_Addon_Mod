@@ -35,70 +35,57 @@ transformer_hex_id = {
    IND_6_MVA_8                = "CD3098FD"
 }
 dist_substation_hex_id = {
-   KVA_500                    = "E9FDF13B",
-   MVA_01                     = "F76F8EEC",
-   MVA_02                     = "970D7B33",
-   MVA_03                     = "95B3A8B8",
-   MVA_05                     = "A5B3AA9F",
-   MVA_07                     = "F709D45E",
-   MVA_10                     = "EFBE0995",
-   MVA_15                     = "97860FCA",
-   MVA_25                     = "47861174"
+   KVA_500                    = "E9FDF13B",   ---SM2 HV Transformer---OG_ID 0xBB350030---
+   MVA_01                     = "F76F8EEC",   ---DK1 Substation---OG_ID 0xBB350031---
+   MVA_02                     = "970D7B33",   ---PEG Power SubStation2---OG_ID 0xBB350032---
+   MVA_03                     = "95B3A8B8",   ---SM2 Main Transformer---OG_ID 0xBB350033---
+   MVA_05                     = "A5B3AA9F",   ---SM2 Main Transformer with building---OG_ID 0xBB350034---
+   MVA_07                     = "F709D45E",   ---PEG Power Sub-Station---OG_ID 0xBB350035---
+   MVA_15                     = "97860FCA",   ---SM2 Power Transformer 1---OG_ID 0xBB350037---
+   MVA_25                     = "47861174"    ---SM2 Power Transformer 2---OG_ID 0xBB350038---
 }
 transmission_station_hex_id = {
-   MVA_10_1                   = "64A800CD",
-   MVA_10_2                   = "8D5A5227",
-   MVA_10_3                   = "CD5A5243",
-   MVA_20                     = "51576A9A",
-   MVA_35                     = "F157688B",
-   MVA_60                     = "578642C5",
-   MVA_60_S                   = "D77FEB63",
-   MVA_90                     = "115765A1",
-   MVA_120                    = "F156F351"
+   MVA_10_1                   = "64A800CD",   ---Maxis Power Substation---   
+   MVA_10_2                   = "8D5A5227",   
+   MVA_10_3                   = "CD5A5243",   
+   MVA_20                     = "51576A9A",   
+   MVA_35                     = "F157688B",   
+   MVA_60                     = "578642C5",   ---SM2 Power Transformer 3---OG_ID 0xBB350123---
+   MVA_60_S                   = "D77FEB63",   ---SM2 Power Substation---OG_ID 0xBB350124---
+   MVA_90                     = "115765A1",   
+   MVA_120                    = "F156F351"    
 }
 elec_feature_hex_id = {
-   TESLA_POWERPACK_1_9_MW     = "9DAD5644",
-   TESLA_POWERPACK_3_7_MW     = "0DAD552F",
-   TESLA_POWERPACK_9_3_MW     = "6DAD5281",
-   TESLA_POWERPACK_37_MW      = "1DAC9A95",
+   TESLA_POWERPACK_1_9_MW     = "9DAD5644",   ---SM2 Tesla Power Storage X Small---
+   TESLA_POWERPACK_3_7_MW     = "0DAD552F",   ---SM2 Tesla Power Storage Small---
+   TESLA_POWERPACK_9_3_MW     = "6DAD5281",   ---SM2 Tesla Power Storage Medium---
+   TESLA_POWERPACK_37_MW      = "1DAC9A95",   ---SM2 Tesla Power Storage Large---
    STEP_UP_TRANSFORMER_3_3_MW = "A90B4E29",
    INVERTER_410_KW            = "B90B4DC3"
 }
 power_plant_hex_id = {
-   SOLAR_POWER_PLANT_370_KW   = "690A0D1A",
-   SOLAR_THERMAL_PLANT_2_5_MW = "1F440000",   ---Maxis---
-   WIND_TURBINE_1_MW          = "1F450000",   ---Maxis---
-   GEOTHERMAL_2_MW            = "8ED3A1D4",
-   GEOTHERMAL_4_MW            = "B4C17F2E",
-   GEOTHERMAL_8_MW            = "3A556B6C",
-   GEOTHERMAL_10_MW           = "B4B9AED9",
-   FISSION_25_MW              = "1F3F0000",   ---Maxis---  
-   FISSION_112_MW             = "A7F08089",
-   FISSION_112_MW_S           = "D53AE881",
-   FISSION_1_2_GW             = "542CA54B",
-   FUSION_75_MW               = "055D65AE",   ---Maxis---
-   OIL_1_8_MW                 = "956C4C30",
-   OIL_4_5_MW                 = "EC56B1EB",
-   OIL_15_MW                  = "1F420000",   ---Maxis---
-   OIL_30_MW                  = "534E49F6",
-   NAT_GAS_1_3_MW             = "7771732F",
-   NAT_GAS_2_MW               = "7771746E",
-   NAT_GAS_2_4_MW             = "F4A74C02",
-   NAT_GAS_3_5_MW             = "F4A7512B",
-   NAT_GAS_6_5_MW             = "1F430000",   ---Maxis---
-   NAT_GAS_34_MW              = "6DD69839",
-   WOOD_1_MW                  = "F16AC780",
-   WOOD_PULP_3_MW             = "3760FD78",
-   CLEAN_COAL_15_MW           = "70F4A14F",
-   CLEAN_COAL_25_MW           = "F0DE51D6",
-   CLEAN_COAL_35_MW           = "F96D171C",
-   COAL_2_MW                  = "DFCF65CD",
-   COAL_6_5_MW                = "774A9DB5",
-   COAL_10_MW                 = "1F4D0000",   ---Maxis---
-   COAL_28_MW                 = "F24FA617",
-   CLEAN_WASTE_2_E_4_5_MW     = "14AF6FA0",
-   WASTE_2_E_9_MW             = "97F38E39",   ---Maxis---
-   WASTE_2_E_45_MW            = "EC6665BC"
+   SOLAR_POWER_PLANT_370_KW   = "690A0D1A",   ---SM2 GE Solar Power Plant---OG_ID 0xBB350150---
+   SOLAR_THERMAL_PLANT_2_5_MW = "1F440000",   ---Maxis Solar Power Plant---OG_ID 0xBB350151---
+   WIND_TURBINE_1_MW          = "1F450000",   ---Maxis Wind Power Plant---OG_ID 0xBB350160---
+   GEOTHERMAL_2_MW            = "8ED3A1D4",   ---DELETE---
+   GEOTHERMAL_4_MW            = "B4C17F2E",   ---PEG-MTP GeoThermal Small---OG_ID 0xBB350171---
+   GEOTHERMAL_8_MW            = "3A556B6C",   ---SM2 Geothermal Power Plant---OG_ID 0xBB352070---
+   GEOTHERMAL_10_MW           = "B4B9AED9",   ---PEG GeoThermal Power Plant---OG_ID 0xBB350071---
+   FISSION_25_MW              = "1F3F0000",   ---Maxis Fission Power Plant---OG_ID 0xBB350078---
+   FISSION_1_2_GW             = "542CA54B",   ---BurroDiablo Nuclear Power Plant---OG_ID 0xBB350080---
+   FUSION_75_MW               = "055D65AE",   ---Maxis Fusion Power Plant---OG_ID 0xBB350088---
+   OIL_15_MW                  = "1F420000",   ---Maxis Oil Power Plant---OG_ID 0xBB350090---
+   NAT_GAS_6_5_MW             = "1F430000",   ---Maxis Gas Power Plant---OG_ID 0xBB3501A4---
+   NAT_GAS_34_MW              = "6DD69839",   ---SM2 Sim Gideon NG Power Plant---OG_ID 0xBB3500A0---
+   COAL_2_MW                  = "DFCF65CD",   ---Chicago Union Station Power Plant---OG_ID 0xBB3501C0---
+   COAL_10_MW                 = "1F4D0000",   ---Maxis Coal Power Plant---OG_ID BB3500C0---
+   COAL_15_MW                 = "70F4A14F",   ---SG Hardun Coal Plant---OG_ID 0xBB3500B8---
+   COAL_35_MW                 = "F96D171C",   ---Medium Clean Coal Power Plant---OG_ID 0xBB3500BA---
+   WASTE_2_E_9_MW             = "97F38E39"    ---Maxis W2E Power Plant---OG_ID 0xBB3500D0---
+}
+special_power_plant_hex_id = {
+   specialtemplate            = "xxxxxxxx",
+   specialtemplate2           = "xxxxxxxx"
 }
 amps_building_hex_id = {
    KK_MANTENANCE_LOT          = "0D580D4F",
@@ -1624,11 +1611,6 @@ unlock_variables = {
    GEOTHERMAL_10_MW_BASE_DEMAND = 6000,
    FUSION_IHT_POP = 8000,
    FUSION_ENERGY_DEMAND = 30000,
-   OIL_30_MW_ENERGY_DEMAND = 20000,
-   NAT_GAS_2_4_MW_IMHT_POP = 2000,
-   NAT_GAS_2_4_MW_ENERGY_DEMAND = 2500,
-   NAT_GAS_3_5_MW_IMHT_POP = 4000,
-   NAT_GAS_3_5_MW_ENERGY_DEMAND = 4000,
    NAT_GAS_6_5_MW_IMHT_POP = 6000,
    NAT_GAS_6_5_MW_ENERGY_DEMAND = 7500,
    NAT_GAS_34_MW_IMHT_POP = 10000,
@@ -1637,7 +1619,6 @@ unlock_variables = {
    CLEANCOAL_25_MW_ENERGY_DEMAND = 20000,
    CLEANCOAL_35_MW_ENERGY_DEMAND = 30000,
    CLEANCARBON_IHT_POP = 4000,
-   COAL_28_MW_ENERGY_DEMAND = 25000,
    W2E_45_MW_GARBAGE_AVAILABLE = 150000,
    AMPS_MAINT_FACILITY_POWER_PLANT = 1,
    AMPS_MAIN_OFFICE_POWER_EXPORT = 25000,
@@ -1647,8 +1628,8 @@ unlock_variables = {
 }
 company_name = {
    ID_00 = "Allied Municipal Power of Simtropolis",
-   ID_01 = "1Dera3 Solar Solutions",
-   ID_02 = "The Andreas Roth Group",
+   ID_01 = "Maxis Corporation",
+   ID_02 = "BSC Incorporated",
    ID_03 = "BIWDC LLC",
    ID_04 = "Consorcio BurroDiablo ",
    ID_05 = "Carrot 1984 Innovations",
@@ -2794,25 +2775,6 @@ a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
 a.mood = advice_moods.GREAT_JOB -- green title
 a.persist = 1
 
------------ Reward record 10 MVA Distribution Substation ----
--- Needs Power Demand > 10,000 MWh/mo, and Unused Transformer Capacity --
-a = create_reward_cityplanning(dist_substation_hex_id.MVA_10)
-function a.condition()
-	run_grid_balance_variables ()
-	if  ((grid_logic_var.TRANSFORM_AVAILABLE < kva_rating.ID_BB350036) or (grid_logic_var.MWH_DEMAND_TOTAL < unlock_variables.DIST_SUBSTATION_10_MVA_ENERGY_DEMAND)) then
-		return [[text@BB352436]]
-	else
-		return reward_state.AVAILABLE
-	end
-end
-a.frequency = 1
-a.timeout = tuning_constants.ADVICE_TIMEOUT_LONG
-a.title = [[text@BB352036]] -- title instance ID
-a.message = [[text@BB352836]] -- body text instance ID
-a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
-a.mood = advice_moods.GREAT_JOB -- green title
-a.persist = 1
-
 ----------- Reward record 15 MVA Distribution Substation ----
 -- Needs Power Demand > 15,000 MWh/mo, and Unused Transformer Capacity --
 a = create_reward_cityplanning(dist_substation_hex_id.MVA_15)
@@ -3291,44 +3253,6 @@ a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT
 a.mood = advice_moods.GREAT_JOB
 a.persist = 1
 
------------ Reward record 112 MW Inland Fission Plant ----
--- Needs Any Fission Power Plant and Unused Transmission Capacity --
-a = create_reward_cityplanning(power_plant_hex_id.FISSION_112_MW)
-function a.condition()
-	run_grid_balance_variables ()
-	if ((grid_logic_var.TRANSMIT_AVAILABLE < kva_rating.ID_BB350079) or (grid_logic_var.LARGE_FISSION_COUNT < 1)) then
-		return [[text@bb352479]]
-	else
-		return reward_state.AVAILABLE
-	end
-end
-a.frequency = 1
-a.timeout = tuning_constants.ADVICE_TIMEOUT_LONG
-a.title   = [[text@bb352079]]
-a.message   = [[text@bb352879]]
-a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT
-a.mood = advice_moods.GREAT_JOB
-a.persist = 1
-
------------ Reward record 112 MW Coastal Fission Plant ----
--- Needs Any Fission Power Plant and Unused Transmission Capacity --
-a = create_reward_cityplanning(power_plant_hex_id.FISSION_112_MW_S)
-function a.condition()
-	run_grid_balance_variables ()
-	if ((grid_logic_var.TRANSMIT_AVAILABLE < kva_rating.ID_BB35007A) or (grid_logic_var.LARGE_FISSION_COUNT < 1)) then
-		return [[text@bb35247a]]
-	else
-		return reward_state.AVAILABLE
-	end
-end
-a.frequency = 1
-a.timeout = tuning_constants.ADVICE_TIMEOUT_LONG
-a.title   = [[text@bb35207a]]
-a.message   = [[text@bb35287a]]
-a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT
-a.mood = advice_moods.GREAT_JOB
-a.persist = 1
-
 ----------- Reward record 1.2 GW Fission Power Facility ----
 -- Needs 112 MW Fission Power Plant (either) OR 1.2 GW Fission Power Plant and Unused Transmission Capacity --
 a = create_reward_cityplanning(power_plant_hex_id.FISSION_1_2_GW)
@@ -3386,44 +3310,6 @@ a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
 a.mood = advice_moods.GREAT_JOB -- green title
 a.persist = 1
 
------------ Reward record 1.8 MW Diesel Power Plant ----
--- Needs Unused Distribution Capacity --
-a = create_reward_cityplanning(power_plant_hex_id.OIL_1_8_MW)
-function a.condition()
-	run_grid_balance_variables ()
-	if  (grid_logic_var.DISTRIB_AVAILABLE < kva_rating.ID_BB350190) then
-		return [[text@BB352590]]
-	else
-		return reward_state.AVAILABLE
-	end
-end
-a.frequency = 1
-a.timeout = tuning_constants.ADVICE_TIMEOUT_LONG
-a.title = [[text@BB352190]] -- title instance ID
-a.message = [[text@BB352990]] -- body text instance ID
-a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
-a.mood = advice_moods.GREAT_JOB -- green title
-a.persist = 1
-
----------- Reward record 4.5 MW Oil Power Plant ----
--- Needs Unused Distribution Capacity --
-a = create_reward_cityplanning(power_plant_hex_id.OIL_4_5_MW)
-function a.condition()
-	run_grid_balance_variables ()
-	if  (grid_logic_var.DISTRIB_AVAILABLE < kva_rating.ID_BB350191) then
-		return [[text@BB352591]]
-	else
-		return reward_state.AVAILABLE
-	end
-end
-a.frequency = 1
-a.timeout = tuning_constants.ADVICE_TIMEOUT_LONG
-a.title = [[text@BB352191]] -- title instance ID
-a.message = [[text@BB352991]] -- body text instance ID
-a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
-a.mood = advice_moods.GREAT_JOB -- green title
-a.persist = 1
-
 ----------- Reward record 15 MW Oil Power Plant ----
 -- Needs Unused Transmission Capacity --
 a = create_reward_cityplanning(power_plant_hex_id.OIL_15_MW)
@@ -3443,25 +3329,6 @@ a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
 a.mood = advice_moods.GREAT_JOB -- green title
 a.persist = 1
 
------------ Reward record 30 MW Oil Power Plant ----
--- Needs Power Demand > 32,500 and Unused Transmission Capacity --
-a = create_reward_cityplanning(power_plant_hex_id.OIL_30_MW)
-function a.condition()
-	run_grid_balance_variables ()
-	if  ((grid_logic_var.TRANSMIT_AVAILABLE < kva_rating.ID_BB350091) or (grid_logic_var.MWH_DEMAND_TOTAL < unlock_variables.OIL_30_MW_ENERGY_DEMAND)) then
-		return [[text@bb352491]]
-	else
-		return reward_state.AVAILABLE
-	end
-end
-a.frequency = 1
-a.timeout = tuning_constants.ADVICE_TIMEOUT_LONG
-a.title = [[text@bb352091]] -- title instance ID
-a.message = [[text@bb352891]] -- body text instance ID
-a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
-a.mood = advice_moods.GREAT_JOB -- green title
-a.persist = 1
-
 ----------- Reward record 180 kW Natural Gas Generator ----
 -- Needs Unused Distribution Capacity less than 1,000 kVA and City R Population less than 5,000 --
 a = create_reward_cityplanning(generator_hex_id.NAT_GAS_180_KW)
@@ -3477,82 +3344,6 @@ a.frequency = 1
 a.timeout = tuning_constants.ADVICE_TIMEOUT_LONG
 a.title = [[text@BB352100]] -- title instance ID
 a.message = [[text@BB352900]] -- body text instance ID
-a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
-a.mood = advice_moods.GREAT_JOB -- green title
-a.persist = 1
-
------------ Reward record 1.3 MW Natural Gas Power Plant ----
--- Needs Unused Distribution Capacity --
-a = create_reward_cityplanning(power_plant_hex_id.NAT_GAS_1_3_MW)
-function a.condition()
-	run_grid_balance_variables ()
-	if  (grid_logic_var.DISTRIB_AVAILABLE < kva_rating.ID_BB3501A0) then
-		return [[text@BB3525A0]]
-	else
-		return reward_state.AVAILABLE
-	end
-end
-a.frequency = 1
-a.timeout = tuning_constants.ADVICE_TIMEOUT_LONG
-a.title = [[text@BB3521A0]] -- title instance ID
-a.message = [[text@BB3529A0]] -- body text instance ID
-a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
-a.mood = advice_moods.GREAT_JOB -- green title
-a.persist = 1
-
------------ Reward record 2 MW Natural Gas Power Plant ----
--- Needs Unused Distribution Capacity --
-a = create_reward_cityplanning(power_plant_hex_id.NAT_GAS_2_MW)
-function a.condition()
-	run_grid_balance_variables ()
-	if  (grid_logic_var.DISTRIB_AVAILABLE < kva_rating.ID_BB3501A1) then
-		return [[text@BB3525A1]]
-	else
-		return reward_state.AVAILABLE
-	end
-end
-a.frequency = 1
-a.timeout = tuning_constants.ADVICE_TIMEOUT_LONG
-a.title = [[text@BB3521A1]] -- title instance ID
-a.message = [[text@BB3529A1]] -- body text instance ID
-a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
-a.mood = advice_moods.GREAT_JOB -- green title
-a.persist = 1
-
------------ Reward record 2.4 MW Natural Gas Power Plant ----
--- Needs IM+IHT Pop > 2,000, Power Demand > 2,500, and Unused Distribution Capacity --
-a = create_reward_cityplanning(power_plant_hex_id.NAT_GAS_2_4_MW)
-function a.condition()
-	run_grid_balance_variables ()
-	if  ((grid_logic_var.DISTRIB_AVAILABLE < kva_rating.ID_BB3501A2) or ((game.g_city_im_population + game.g_city_iht_population) < unlock_variables.NAT_GAS_2_4_MW_IMHT_POP) or (grid_logic_var.MWH_DEMAND_TOTAL < unlock_variables.NAT_GAS_2_4_MW_ENERGY_DEMAND)) then
-		return [[text@BB3525A2]]
-	else
-		return reward_state.AVAILABLE
-	end
-end
-a.frequency = 1
-a.timeout = tuning_constants.ADVICE_TIMEOUT_LONG
-a.title = [[text@BB3521A2]] -- title instance ID
-a.message = [[text@BB3529A2]] -- body text instance ID
-a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
-a.mood = advice_moods.GREAT_JOB -- green title
-a.persist = 1
-
------------ Reward record 3.5 MW Natural Gas Power Plant ----
--- Needs IM+IHT Pop > 4,000 - Power Demand > 4,000 - and Unused Distribution Capacity --
-a = create_reward_cityplanning(power_plant_hex_id.NAT_GAS_3_5_MW)
-function a.condition()
-	run_grid_balance_variables ()
-	if  ((grid_logic_var.DISTRIB_AVAILABLE < kva_rating.ID_BB3501A3) or ((game.g_city_im_population + game.g_city_iht_population) < unlock_variables.NAT_GAS_3_5_MW_IMHT_POP) or (grid_logic_var.MWH_DEMAND_TOTAL < unlock_variables.NAT_GAS_3_5_MW_ENERGY_DEMAND)) then
-		return [[text@BB3525A3]]
-	else
-		return reward_state.AVAILABLE
-	end
-end
-a.frequency = 1
-a.timeout = tuning_constants.ADVICE_TIMEOUT_LONG
-a.title = [[text@BB3521A3]] -- title instance ID
-a.message = [[text@BB3529A3]] -- body text instance ID
 a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
 a.mood = advice_moods.GREAT_JOB -- green title
 a.persist = 1
@@ -3595,47 +3386,10 @@ a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
 a.mood = advice_moods.GREAT_JOB -- green title
 a.persist = 1
 
------------ Reward record 1 MW Wood Power Plant ----
--- Needs Unused Distribution Capacity --
-a = create_reward_cityplanning(power_plant_hex_id.WOOD_1_MW)
-function a.condition()
-	run_grid_balance_variables ()
-	if  (grid_logic_var.DISTRIB_AVAILABLE < kva_rating.ID_BB3501B0) then
-		return [[text@BB3525B0]]
-	else
-		return reward_state.AVAILABLE
-	end
-end
-a.frequency = 1
-a.timeout = tuning_constants.ADVICE_TIMEOUT_LONG
-a.title = [[text@BB3521B0]] -- title instance ID
-a.message = [[text@BB3529B0]] -- body text instance ID
-a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
-a.mood = advice_moods.GREAT_JOB -- green title
-a.persist = 1
-
------------ Reward record 3 MW Woodpulp Power Plant ----
--- Needs Unused Distribution Capacity --
-a = create_reward_cityplanning(power_plant_hex_id.WOOD_PULP_3_MW)
-function a.condition()
-	run_grid_balance_variables ()
-	if  (grid_logic_var.DISTRIB_AVAILABLE < kva_rating.ID_BB3501B1) then
-		return [[text@BB3525B1]]
-	else
-		return reward_state.AVAILABLE
-	end
-end
-a.frequency = 1
-a.timeout = tuning_constants.ADVICE_TIMEOUT_LONG
-a.title = [[text@BB3521B1]] -- title instance ID
-a.message = [[text@BB3529B1]] -- body text instance ID
-a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
-a.mood = advice_moods.GREAT_JOB -- green title
-a.persist = 1
 
 ----------- Reward record 15 MW Clean Coal Power Plant ----
 -- Needs IHT Population > 4,000, Power Demand > 10,000, and Unused Transmission Capacity --
-a = create_reward_cityplanning(power_plant_hex_id.CLEAN_COAL_15_MW)
+a = create_reward_cityplanning(power_plant_hex_id.COAL_15_MW)
 function a.condition()
 	run_grid_balance_variables ()
 	if  ((grid_logic_var.TRANSMIT_AVAILABLE < kva_rating.ID_BB3500B8) or (game.g_city_iht_population < unlock_variables.CLEANCARBON_IHT_POP) or (grid_logic_var.MWH_DEMAND_TOTAL < unlock_variables.CLEANCOAL_15_MW_ENERGY_DEMAND)) then
@@ -3652,28 +3406,9 @@ a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
 a.mood = advice_moods.GREAT_JOB -- green title
 a.persist = 1
 
------------ Reward record 25 MW Clean Coal Power Plant ----
--- Needs IHT Population > 4,000, Power Demand > 20,000, and Unused Transmission Capacity --
-a = create_reward_cityplanning(power_plant_hex_id.CLEAN_COAL_25_MW)
-function a.condition()
-	run_grid_balance_variables ()
-	if  ((grid_logic_var.TRANSMIT_AVAILABLE < kva_rating.ID_BB3500B9) or (game.g_city_iht_population < unlock_variables.CLEANCARBON_IHT_POP) or (grid_logic_var.MWH_DEMAND_TOTAL < unlock_variables.CLEANCOAL_25_MW_ENERGY_DEMAND)) then
-		return [[text@BB3524B9]]
-	else
-		return reward_state.AVAILABLE
-	end
-end
-a.once = 1
-a.timeout = tuning_constants.ADVICE_TIMEOUT_LONG
-a.title = [[text@BB3520B9]] -- title instance ID
-a.message = [[text@BB3528B9]] -- body text instance ID
-a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
-a.mood = advice_moods.GREAT_JOB -- green title
-a.persist = 1
-
 ----------- Reward record 35 MW Clean Coal Power Plant ----
 -- Needs IHT Population > 4,000, Power Demand > 30,000, and Unused Transmission Capacity --
-a = create_reward_cityplanning(power_plant_hex_id.CLEAN_COAL_35_MW)
+a = create_reward_cityplanning(power_plant_hex_id.COAL_35_MW)
 function a.condition()
 	run_grid_balance_variables ()
 	if  ((grid_logic_var.TRANSMIT_AVAILABLE < kva_rating.ID_BB3500BA) or (game.g_city_iht_population < unlock_variables.CLEANCARBON_IHT_POP) or (grid_logic_var.MWH_DEMAND_TOTAL < unlock_variables.CLEANCOAL_35_MW_ENERGY_DEMAND)) then
@@ -3709,25 +3444,6 @@ a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
 a.mood = advice_moods.GREAT_JOB -- green title
 a.persist = 1
 
------------ Reward record 6.5 MW Coal Power Plant ----
--- Needs Unused Distribution Capacity --
-a = create_reward_cityplanning(power_plant_hex_id.COAL_6_5_MW)
-function a.condition()
-	run_grid_balance_variables ()
-	if  (grid_logic_var.DISTRIB_AVAILABLE < kva_rating.ID_BB3501C1) then
-		return [[text@BB3525C1]]
-	else
-		return reward_state.AVAILABLE
-	end
-end
-a.frequency = 1
-a.timeout = tuning_constants.ADVICE_TIMEOUT_LONG
-a.title = [[text@BB3521C1]] -- title instance ID
-a.message = [[text@BB3529C1]] -- body text instance ID
-a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
-a.mood = advice_moods.GREAT_JOB -- green title
-a.persist = 1
-
 ----------- Reward record 10 MW Coal Power Plant ----
 -- Needs Unused Transmission Capacity --
 a = create_reward_cityplanning(power_plant_hex_id.COAL_10_MW)
@@ -3747,44 +3463,6 @@ a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
 a.mood = advice_moods.GREAT_JOB -- green title
 a.persist = 1
 
------------ Reward record 28 MW Coal Power Plant ----
--- Needs Power Demand > 25,000 and Unused Transmission Capacity --
-a = create_reward_cityplanning(power_plant_hex_id.COAL_28_MW)
-function a.condition()
-	run_grid_balance_variables ()
-	if  ((grid_logic_var.TRANSMIT_AVAILABLE < kva_rating.ID_BB3500C1) or (grid_logic_var.MWH_DEMAND_TOTAL < unlock_variables.COAL_28_MW_ENERGY_DEMAND)) then
-		return [[text@bb3524c1]]
-	else
-		return reward_state.AVAILABLE
-	end
-end
-a.frequency = 1
-a.timeout = tuning_constants.ADVICE_TIMEOUT_LONG
-a.title = [[text@bb3520c1]] -- title instance ID
-a.message = [[text@bb3528c1]] -- body text instance ID
-a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
-a.mood = advice_moods.GREAT_JOB -- green title
-a.persist = 1
-
------------ Reward record 4.5 MW Clean Waste to Energy Plant ----
--- Needs IHT Population > 4,000 and Unused Distribution Capacity --
-a = create_reward_cityplanning(power_plant_hex_id.CLEAN_WASTE_2_E_4_5_MW)
-function a.condition()
-	run_grid_balance_variables ()
-	if  ((grid_logic_var.DISTRIB_AVAILABLE < kva_rating.ID_BB3501D0) or (game.g_city_iht_population < unlock_variables.CLEANCARBON_IHT_POP)) then
-		return [[text@bb3525d0]]
-	else
-		return reward_state.AVAILABLE
-	end
-end
-a.frequency = 1
-a.timeout = tuning_constants.ADVICE_TIMEOUT_LONG
-a.title = [[text@bb3521d0]] -- title instance ID
-a.message = [[text@bb3529d0]] -- body text instance ID
-a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
-a.mood = advice_moods.GREAT_JOB -- green title
-a.persist = 1
-
 ----------- Reward record 9 MW Waste to Energy Plant ----
 -- Needs Unused Transmission Capacity --
 a = create_reward_cityplanning(power_plant_hex_id.WASTE_2_E_9_MW)
@@ -3800,25 +3478,6 @@ a.frequency = 1
 a.timeout = tuning_constants.ADVICE_TIMEOUT_LONG
 a.title = [[text@bb3520d0]] -- title instance ID
 a.message = [[text@bb3528d0]] -- body text instance ID
-a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
-a.mood = advice_moods.GREAT_JOB -- green title
-a.persist = 1
-
------------ Reward record 45 MW Waste to Energy Plant ----
--- Needs Garbage Produced/Imported > 200,000 and Unused Transmission Capacity --
-a = create_reward_cityplanning(power_plant_hex_id.WASTE_2_E_45_MW)
-function a.condition()
-	run_grid_balance_variables ()
-	if  ((grid_logic_var.TRANSMIT_AVAILABLE < kva_rating.ID_BB3500D1) or ((game.g_garbage_produced + game.g_garbage_imported) - (game.g_garbage_exported + game.g_garbage_recycled) < unlock_variables.W2E_45_MW_GARBAGE_AVAILABLE)) then
-		return [[text@BB3524D1]]
-	else
-		return reward_state.AVAILABLE
-	end
-end
-a.frequency = 1
-a.timeout = tuning_constants.ADVICE_TIMEOUT_LONG
-a.title = [[text@BB3520D1]] -- title instance ID
-a.message = [[text@BB3528D1]] -- body text instance ID
 a.priority  = tuning_constants.ADVICE_PRIORITY_URGENT -- triggers popup
 a.mood = advice_moods.GREAT_JOB -- green title
 a.persist = 1
